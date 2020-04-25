@@ -13,6 +13,10 @@
 "myqr":"./md/myqr",
 "templatehotspot":"https://raw.githubusercontent.com/laksa19/template-hotspot-mikhmon/master/README.md",
 
+"blog":"./md/blog",
+"blog-set-date-time":"./md/blog/set-date-time",
+"blog-hotspot-users-missing":"./md/blog/hotspot-users-missing",
+
 "faq":"./md/faq",
 "about":"./md/about",
 "404":"./md/404"
