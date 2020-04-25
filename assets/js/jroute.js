@@ -20,7 +20,6 @@ function lpage(){
 }
 
 
-
 function jroute(id,ipage = lpage()){
 	fetch('./assets/json/page.json'+t)
 	  .then((response) => {
@@ -28,7 +27,7 @@ function jroute(id,ipage = lpage()){
 	  })
 	  .then((data) => {
 	    var page = data;
-		if(!page[ipage] && !ipage){
+		if(!page[ipage]){
 			loadDotMD(id,page["home"]);
 		}else if(page[ipage]){
 			loadDotMD(id,page[ipage]);
