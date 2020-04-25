@@ -24,6 +24,16 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 [![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/vdefaultdetail.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/vdefaultdetailbw.txt)
 
+<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- ads3 -->
+	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
+	 data-ad-format="auto" data-full-width-responsive="true"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 #### Default Elegan
 
 ![](./img/voucher/eleganqr.png) ![](./img/voucher/eleganupqr.png)
