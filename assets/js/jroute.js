@@ -6,6 +6,7 @@
  */
 
 var iurl = window.location.href;
+var t = '?t=' + new Date().getTime();
 var header_id = "md_header";
 var body_id = "md_body";
 var footer_id = "md_footer";
@@ -21,9 +22,12 @@ function lpage(){
 
 
 function jroute(id,ipage = lpage()){
-	let t = '?t=' + new Date().getTime();
-	$.getJSON("./assets/json/page.json"+t, function(result) {
-		var page = result;
+	fetch('./assets/json/page.json'+t)
+	  .then((response) => {
+	    return response.json();
+	  })
+	  .then((data) => {
+	    var page = data;
 		if(!page[ipage] && !ipage){
 			loadDotMD(id,page["home"]);
 		}else if(page[ipage]){
@@ -31,27 +35,34 @@ function jroute(id,ipage = lpage()){
 		}else{
 			loadDotMD(id,page["404"]);
 		}
-	})
+	  })
+	  .catch((error) => {
+	    console.error('Error:', error);
+	  });
 	
 }
 
 
 function loadDotMD(id,mdfile){
-	let t = '?t=' + new Date().getTime();
 	if(mdfile.split(/[. ]+/).pop() !== "md"){
 		mdfile = mdfile+".md";
 	}else if(mdfile.split(/[. ]+/).pop() == "md"){
 		mdfile = mdfile;
 	}
-	$.get(mdfile+t, function(result) {
-		let md_result = marked(result);
+	fetch(mdfile+t)
+	  .then((response) => {
+	    return response.text();
+	  })
+	  .then((data) => {
+		var md_result = marked(data);
 		$("#"+id).html(md_result);
-		$("#container").fadeIn(200);
 		$("pre code").each(function(i, e) {hljs.highlightBlock(e)});
-	})
+	  })
+	  .catch((error) => {
+	    console.error('Error:', error);
+	  });
 	
 }
-
 
 
 jroute(header_id,"header");
