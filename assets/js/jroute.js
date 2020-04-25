@@ -22,7 +22,7 @@ function lpage(){
 
 function jroute(id,ipage = lpage()){
 	let t = '?t=' + new Date().getTime();
-	$.getJSON("assets/json/page.json"+t, function(result) {
+	$.getJSON("./assets/json/page.json"+t, function(result) {
 		var page = result;
 		if(!page[ipage] && !ipage){
 			loadDotMD(id,page["home"]);
