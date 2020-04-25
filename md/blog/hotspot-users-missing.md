@@ -17,5 +17,21 @@ Penanganan :
 
 * Jangan menggunakan tamplete hotspot yang memakan banyak resource, agar HDD internal cukup untuk menampung data user hotspot . Jika menggunakan RB yang mempunyai slot microsd atau port usb, sebaiknya template hotspot disimpan di media penyimpanan tersebut.
 * Jika terindikasi kerusakan hardware sebaiknya ganti RB Anda.
+* Cek free HDD Routerboard secara rutin, agar data user dan data penjualan dapat tersimpan.
+* Hapus data penjualan ditahun atau bulan sebelumnya.
+
+	* Contoh hapus data penjualan dari terminal winbox atau ssh:
+
+	* Hapus data penjualan ditahun sebelumnya.
+	```
+	/sys scr rem [find where owner~"2019"]
+	```
+	Ganti 2019 dengan tahun yang dibutuhkan.
+
+	* Hapus data penjualan dibulan sebelumnya.
+	```
+	/sys scr rem [find where owner="jan2019"]
+	```
+	Ganti bulan dan tahun dengan yang dibutuhkan "feb/2019".
 
 Semoga bermanfaat.
