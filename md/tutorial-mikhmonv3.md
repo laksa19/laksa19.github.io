@@ -34,6 +34,15 @@ NTP server dapat diperoleh di situs berikut,
 
 [![](./assets/img/video.png) Video Panduan](https://youtu.be/xfZdZDjQp-g)
 
+<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- ads3 -->
+	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
+	 data-ad-format="auto" data-full-width-responsive="true"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 #### Panduan Install Mikhmon di Android via Termux
 
@@ -81,6 +90,16 @@ Pembuatan user dengan validity dan time limit idealnya time limit lebih kecil da
 >Contoh membuat user dengan time limit 7 hari dan masa aktif 30 hari, maka bisa add user adau generate user dengan time limit 7d dan memilih user profile yang memiliki validity 30d.
 
 [![](./assets/img/video.png) Video Panduan](https://www.youtube.com/watch?v=bNyfz-0fvGQ)
+
+<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- ads3 -->
+	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
+	 data-ad-format="auto" data-full-width-responsive="true"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 #### Menampilkan Expired User di Laman Status Hotspot (status.html). `Tempalate hotspo4, hotspot5, hotspot6.`
  
