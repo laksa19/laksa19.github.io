@@ -1,0 +1,10 @@
+#bin/bash
+apt install git php -y
+git clone https://github.com/laksa19/mikhmonv3.git
+cat >start-mikhmon <<EOL
+#bin/bash
+cd mikhmonv3
+php -S 0.0.0.0:8080
+EOL
+chmod +x start-mikhmon
+./start-mikhmon

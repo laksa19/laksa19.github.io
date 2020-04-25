@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /*?
+Allow: /?mikhmon
+Allow: /?mikhmon/v3
+Allow: /?mikhmon/v3/download
+Allow: /?mikhmon/v3/tutorial
+Disallow /md/*.md$
+Disallow /assets/json/*.json$

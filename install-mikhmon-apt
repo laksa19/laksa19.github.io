@@ -1,0 +1,30 @@
+#bin/bash
+apt install git php -y
+git clone https://github.com/laksa19/mikhmonv3.git
+cat >start-mikhmon <<EOL
+#bin/bash
+cd mikhmonv3
+php -S 0.0.0.0:8080 
+EOL
+cat >update-mikhmon <<EOL
+#bin/bash
+mkdir ~/backup-mikhmon
+cp ~/mikhmonv3/include/config.php ~/backup-mikhmon/config.php
+cp -rf ~/mikhmonv3/voucher/. ~/backup-mikhmon/voucher/
+cp -rf ~/mikhmonv3/img/. ~/backup-mikhmon/img/
+rm -rf mikhmonv3
+git clone https://github.com/laksa19/mikhmonv3.git
+cp ~/backup-mikhmon/config.php ~/mikhmonv3/include/config.php
+cp -rf ~/backup-mikhmon/voucher/. ~/mikhmonv3/voucher/
+cp -rf ~/backup-mikhmon/img/. ~/mikhmonv3/img/
+rm -rf ~/backup-mikhmon
+./start-mikhmon
+EOL
+cat >remove-mikhmon <<EOL
+#bin/bash
+rm -rf mikhmonv3
+EOL
+chmod +x start-mikhmon
+chmod +x update-mikhmon
+chmod +x remove-mikhmon
+./start-mikhmon

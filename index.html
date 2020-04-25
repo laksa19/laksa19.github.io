@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laksa19 | MIKHMON</title>
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Laksa19 | MIKHMON : Mikrotik Hotspot Monitor" />
+		<meta name="keywords" content="mikhmon,mikrotik,voucher,routeros,api mikrotik,rtrwnet, rtrw/net,hotspot,mikrotik api" />
+		<meta http-equiv="expires" content="0">
+		<meta name="robots" content="index, follow" />
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+		<!-- markdown -->
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" > -->
+		<link rel="stylesheet" href="./assets/css/md/github-markdown.css?v1" >
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<!-- hightlight -->
+		<!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css"> -->
+		<link rel="stylesheet" href="./assets/css/highlight/vs.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+		<!-- iroute -->
+		<script id="iroute" src="./assets/js/jroute.js?v3"></script>
+		<!-- favicon -->
+		<link rel="icon" href="./assets/img/favicon.ico" />
+	    <style>
+	    	body {
+				box-sizing: border-box;
+				min-width: 200px;
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 40px;
+				background: #E8EAED;
+			}
+			.markdown-body .highlight pre,
+			.markdown-body pre {
+				/*solarized-dark*/
+				/*background-color: #002B36;*/
+
+				/*monokai*/
+				/*background-color: #272822;*/
+			}
+			.markdown-body{
+				background: #fff;
+			}
+			#container{
+				padding: 20px;
+				border-radius: 3px;
+				box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+			}
+			#goTop {
+			  display: none;
+			  position: fixed;
+			  bottom: 20px;
+			  right: 10px;
+			  z-index: 99;
+			  border: none;
+			  outline: none;
+			  color: white;
+			  cursor: pointer;
+			  padding: 2px;
+			  border-radius: 50%;
+			  height: 50px;
+			  width: 50px;
+			  background-color: transparent;
+			  background-image: url('./assets/img/slide-up.png');
+			  background-position:50% 50%;
+    		  background-repeat:no-repeat; 
+			}
+	    </style>
+  </head>
+  <body>
+  	<div id="container" class="markdown-body" style="display: none;">
+  		<div>
+  		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- ads1 -->
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-client="ca-pub-1716315177239884"
+		     data-ad-slot="9229714223"
+		     data-ad-format="auto"
+		     data-full-width-responsive="true"></ins>
+		<script>
+		     (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	  	<div id="md_header"></div>
+	  	<div id="md_body"></div>
+	  	<div>
+	  	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- ads2 -->
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-client="ca-pub-1716315177239884"
+		     data-ad-slot="2636756848"
+		     data-ad-format="auto"
+		     data-full-width-responsive="true"></ins>
+		<script>
+		     (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	  	<div id="md_footer"></div>
+  	</div>
+  	<div id="goTop" title="Go to top"></div>
+  	<script type="text/javascript">
+  		window.onscroll = function() {scrollChk()};
+
+		function scrollChk() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    $("#goTop").fadeIn(200);
+		  } else {
+		    $("#goTop").fadeOut(200);
+		  }
+		}
+		$("#goTop").click(function(){
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		})
+		var _0x60d5=["\x70\x61\x64\x64\x69\x6E\x67","\x73\x74\x79\x6C\x65","\x62\x6F\x64\x79","\x32\x30\x25","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x63\x65\x6E\x74\x65\x72\x3E\x3C\x64\x69\x76\x3E\x3C\x68\x31\x3E\x3A\x28\x3C\x2F\x68\x31\x3E\x3C\x68\x33\x3E\x50\x6C\x65\x61\x73\x65\x20\x64\x69\x73\x61\x62\x6C\x65\x20\x79\x6F\x75\x72\x20\x41\x64\x20\x42\x6C\x6F\x63\x6B\x65\x72\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x63\x65\x6E\x74\x65\x72\x3E","\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x74\x79\x70\x65","\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74","\x61\x73\x79\x6E\x63","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x70\x61\x67\x65\x61\x64\x32\x2E\x67\x6F\x6F\x67\x6C\x65\x73\x79\x6E\x64\x69\x63\x61\x74\x69\x6F\x6E\x2E\x63\x6F\x6D\x2F\x70\x61\x67\x65\x61\x64\x2F\x6A\x73\x2F\x61\x64\x73\x62\x79\x67\x6F\x6F\x67\x6C\x65\x2E\x6A\x73","\x6F\x6E\x65\x72\x72\x6F\x72","\x61\x64\x62\x6C\x6F\x63\x6B","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65"];!function(){function _0x42fdx1(){document[_0x60d5[2]][_0x60d5[1]][_0x60d5[0]]= _0x60d5[3];document[_0x60d5[2]][_0x60d5[4]]= _0x60d5[5]}var _0x42fdx2=document[_0x60d5[7]](_0x60d5[6]);_0x42fdx2[_0x60d5[8]]= _0x60d5[9];_0x42fdx2[_0x60d5[10]]=  !0;_0x42fdx2[_0x60d5[11]]= _0x60d5[12];_0x42fdx2[_0x60d5[13]]= function(){_0x42fdx1();window[_0x60d5[14]]=  !0};var _0x42fdx3=document[_0x60d5[15]](_0x60d5[6])[0];_0x42fdx3[_0x60d5[17]][_0x60d5[16]](_0x42fdx2,_0x42fdx3)}()
+
+		//<![CDATA[function ASSetCookie(a,b,c){var d=new Date;d.setDate(d.getDate()+c);var e=escape(b)+(0==c?";path=/":"; expires="+d.toUTCString())+";path=/";document.cookie=a+"="+e}function ASGetCookie(a){var b,c,d,e=document.cookie.split(";");for(b=0;b<e.length;b++)if(c=e[b].substr(0,e[b].indexOf("=")),d=e[b].substr(e[b].indexOf("=")+1),c=c.replace(/^\s+|\s+$/g,""),c==a)return unescape(d)}function ASSetCookieAds(a,b){var c=ASGetCookie(a);void 0!=c&&""!=c?(ASTheCookieInt=parseInt(c)+1,ASSetCookie(a,ASTheCookieInt.toString(),0)):ASSetCookie(a,"1",b)}function ASMaxClick(a,b){var c=ASGetCookie(a);return void 0!=c&&parseInt(c)>=b?!0:!1}jQuery(document).ready(function(a){var b="adsShield",c=7,d=3,e=".adsShield",f=!1;ASMaxClick(b,d)&&a(e).hide("fast"),a(e).bind("mouseover",function(){f=!0}).bind("mouseout",function(){f=!1}),a(window).on("beforeunload",function(){f&&(ASMaxClick(b,d)?a(e).hide("fast"):ASSetCookieAds(b,c))})}); //]]>
+
+  	</script>
+  </body>
+</html>

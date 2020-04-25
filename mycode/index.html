@@ -1,0 +1,83 @@
+<html>
+<head>
+		<title>MyCode</title>
+<script>
+    
+    function setCode(codes){
+    var editor = document.getElementById('editor');
+    var viewer = document.getElementById('viewer');
+    editor.value = codes;
+    viewer.srcdoc = codes;
+    }
+
+    function loadCode(){
+    
+    if (sessionStorage.length == 0) {
+        var _0xee48=["\x0D\x0A\x3C\x21\x44\x4F\x43\x54\x59\x50\x45\x20\x68\x74\x6D\x6C\x3E\x0D\x0A\x3C\x68\x74\x6D\x6C\x3E\x0D\x0A\x09\x3C\x68\x65\x61\x64\x3E\x0D\x0A\x09\x3C\x6D\x65\x74\x61\x20\x63\x68\x61\x72\x73\x65\x74\x3D\x22\x75\x74\x66\x2D\x38\x22\x20\x2F\x3E\x0D\x0A\x09\x3C\x74\x69\x74\x6C\x65\x3E\x4D\x79\x43\x6F\x64\x65\x3C\x2F\x74\x69\x74\x6C\x65\x3E\x0D\x0A\x09\x3C\x73\x74\x79\x6C\x65\x20\x74\x79\x70\x65\x3D\x22\x74\x65\x78\x74\x2F\x63\x73\x73\x22\x3E\x0D\x0A\x09\x09\x09\x0D\x0A\x09\x3C\x2F\x73\x74\x79\x6C\x65\x3E\x0D\x0A\x09\x3C\x73\x63\x72\x69\x70\x74\x20\x74\x79\x70\x65\x3D\x22\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x22\x3E\x0D\x0A\x09\x09\x09\x0D\x0A\x09\x3C\x2F\x73\x63\x72\x69\x70\x74\x3E\x0D\x0A\x09\x3C\x2F\x68\x65\x61\x64\x3E\x0D\x0A\x0D\x0A\x09\x3C\x62\x6F\x64\x79\x3E\x0D\x0A\x09\x09\x3C\x68\x31\x3E\x57\x65\x6C\x63\x6F\x6D\x65\x20\x74\x6F\x20\x4D\x79\x43\x6F\x64\x65\x3C\x2F\x68\x31\x3E\x0D\x0A\x09\x09\x3C\x68\x32\x3E\x53\x69\x6D\x70\x6C\x65\x20\x48\x54\x4D\x4C\x20\x4C\x69\x76\x65\x20\x45\x64\x69\x74\x6F\x72\x3C\x2F\x68\x32\x3E\x0D\x0A\x09\x3C\x2F\x62\x6F\x64\x79\x3E\x0D\x0A\x3C\x2F\x68\x74\x6D\x6C\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20"];var firstCode=_0xee48[0]
+        sessionStorage.setItem("mycode", firstCode);
+        setCode(firstCode);
+        }else{
+        var codes = sessionStorage.getItem("mycode");
+        setCode(codes);
+    }}
+
+    function liveCode(){
+    var textContent = document.getElementById('editor').value;
+    sessionStorage.setItem("mycode", textContent);
+    var codes = sessionStorage.getItem("mycode");
+    var viewer = document.getElementById('viewer');
+    viewer.srcdoc = codes;
+}
+</script>	
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background: #3e505c;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+#editor {
+  height: 95%;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+#viewer {
+  background: #fff;
+  border: none;
+  width: 100%;
+  height: 95%;
+  margin: 5px;
+  border: 1px solid #3498db;
+}
+
+</style>
+
+</head>
+<body onload="loadCode()">
+	<div class="main">
+        <textarea id="editor" onkeyup="liveCode()"></textarea>
+        <iframe id="viewer"></iframe>
+    </div>
+<script>
+function enableTab(id) {
+    var el = document.getElementById(id);
+    el.onkeydown = function(e) {
+        if (e.keyCode === 9) {
+            var val = this.value,
+                start = this.selectionStart,
+                end = this.selectionEnd;
+            this.value = val.substring(0, start) + '\t' + val.substring(end);
+            this.selectionStart = this.selectionEnd = start + 1;
+            return false;
+        }
+    };
+}
+enableTab('editor');
+</script>    
+</body>
+</html>
