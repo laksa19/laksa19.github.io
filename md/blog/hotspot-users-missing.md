@@ -20,7 +20,7 @@ Penanganan :
 * Cek free HDD Routerboard secara rutin, agar data user dan data penjualan dapat tersimpan.
 * Hapus data penjualan ditahun atau bulan sebelumnya.
 
-	* Contoh hapus data penjualan dari terminal winbox atau ssh:
+	Contoh hapus data penjualan dari terminal winbox atau ssh:
 
 	* Hapus data penjualan ditahun sebelumnya.
 	```
