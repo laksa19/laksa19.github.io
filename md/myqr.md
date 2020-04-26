@@ -30,6 +30,7 @@ add action=accept comment="Mikhmon QR Code Scanner" disabled=no dst-host=laksa19
 	</script>
 </div>
 
+
 ![MYQR | QR code scanner](./img/myqr.jpg "MyQR | QR code scanner")
 
 
