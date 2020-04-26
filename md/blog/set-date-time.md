@@ -17,7 +17,7 @@ Solusi untuk pengaturan jam dan tanggal agar tidak kembali ke tanggal default `j
 * Interval : `00:05:00`
 * On event sebagai berikut
 ```
-:local date [sys clock get date]; 
+:local date [/sys clock get date]; 
 :local time [/sys clock get time]; 
 /sys scr set source="/sys clock set date=$date time=$time" [find where name=datetime];
 ```
