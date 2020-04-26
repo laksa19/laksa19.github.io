@@ -52,7 +52,7 @@ NTP server dapat diperoleh di situs berikut,
 2. Jalankan command berikut di Termux
 
 ```bash
-pkg update && apt upgrade -y
+pkg update && pkg upgrade -y
 ```
 ```bash
 pkg install curl
