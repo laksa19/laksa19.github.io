@@ -46,6 +46,35 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 [![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/alaKangdo.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/alaKangdoBW.txt)
 
+#### Default Abu Shafa 1
+
+![](./img/voucher/abuqr.png) ![](./img/voucher/abuupqr.png)
+
+[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/Abu_Shafa_1.txt)
+
+<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- ads3 -->
+	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
+	 data-ad-format="auto" data-full-width-responsive="true"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
+#### Default Abu Shafa Orange
+
+![](./img/voucher/orangeqr.png) ![](./img/voucher/orangeupqr.png)
+
+[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/Orange.txt)
+
+#### MKS Isber Nendi
+
+![](./img/voucher/mks.jpg) 
+
+[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/mks.txt)
+
+
 #### Template Voucher Pihak ke 3
 
 [KevinNet](https://isbernendi.github.io/voucher.html)
