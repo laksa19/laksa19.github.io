@@ -104,7 +104,7 @@ Pembuatan user dengan validity dan time limit idealnya time limit lebih kecil da
 
 #### Quick Print / Print BT
 
-Quick Print salah sati fitur di Mikhmon yang memanfaatkan Thermal Printer Bluetooth.
+Quick Print salah satu fitur Mikhmon yang memanfaatkan Thermal Printer Bluetooth.
 Untuk menggunakan fitur ini diperlukan aplikasi tambahan yang tersedian di Play Store Android.
 Nama aplikasinya _Quick Printer (ESC Post Print)_. Panduan penggunaannya bisa klik link video panduan.
 
