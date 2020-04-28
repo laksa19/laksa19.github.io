@@ -38,7 +38,7 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 ![](./img/voucher/eleganqr.png) ![](./img/voucher/eleganupqr.png)
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/elegan.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/eleganbw.txt)
+[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/velegan.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/veleganbw.txt)
 
 #### Ala Kangdo
 
