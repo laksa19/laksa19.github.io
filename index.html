@@ -120,7 +120,7 @@
 		</div>
 	  	<div id="md_footer">
 	  		<hr>
-			<p>© Laksamadi Guko 2017 - <span id="ty">2020</span></p>
+			<p>© Laksamadi Guko 2017 - <span id="ty"></span></p>
 	  	</div>
   	</div>
   	<div id="goTop" title="Go to top"></div>
@@ -128,7 +128,7 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6JR2HQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->  
   	<script type="text/javascript">
-  		
+  		$("#ty").html(new Date().getFullYear());
   		window.onscroll = function() {scrollChk()};
 
 		function scrollChk() {
