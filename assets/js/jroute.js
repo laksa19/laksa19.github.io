@@ -4,4 +4,65 @@
  * Copyright 2020 Laksamadi Guko
  */
 
-var a=['w67DmsKtKcO4PsOgQUnDvg==','BG7DqsO0','Jms8Hlk=','EcOAKgzCrsK6F3nCvyERw6wbVMK3wqRbw5vChFVgwrdMaMONwqt2YxIKwqDDkw==','MDHCpQ==','EMKqRsOuwpzDisOIKcK/w4Q=','RHIkw5M=','BMOaa8OSFsK7','dMKfFlg9IXzCgGrCusOhwrsTLg==','CcO2dm8=','wrDDmsKUwqoWwpQ=','w5MBw4l3TyM=','w4MLTEgCdsK/dwHCgkfDjcOAwonDncK7w5UHw63CqMOcwphS','FsKwVcOzwq0=','wr0Vw5lhEg==','IcKTG3MafsOpDMK2wow=','RnYww5IY','V3bCrlJSN8OrGF0=','B8OZWwnCrsK7EGjCvw==','R8O4RcKM','w4t5K8OQGF8=','wrTDjiEkwpc=','wrhWwrc+WsK+PQ==','WkHCmwR2wpZmw7M=','UsKCZsKmwrvDrsOw','cMO6XGpm','TMKCeMKtwq7DpQ==','bsKTBUUjJjvDgHjCjcOjwrcELFM9XsKCKw==','w4NJSQ==','w64cw5/DlMK2','wrJQwrIpYcKePzd7IA==','wqvDkHJaw5vDu2I=','wrfDkT0=','w49uIMOR','ecO+QWo=','wpkWIMOyw7TCnw==','YyrDux1Iw4vCocKh','NnMxBW4Tw7bCignDoA==','A8OTYArCucKbAg==','XHIyw4AJwoQ=','McKLFmgt','w4YKWsOTZQ==','TcOkQcKTZsOhMMO9PQU=','NcOAfMOT','H8KnScO7wqvDjQ==','aVUZT8KDw5c=','OH8PH0gdw7bCijo=','wqDDkGhpw4bDvg==','w78xwo/DjsONacOCw5dLw5k=','wrPDligj','w7PDkcOLw78=','OcOowprDgVLCmMKTLMKVV8KNf8Knw6XDqibDj8KeI0zDpgYLw6/CpEvChcOawrrDjsOkwpkww5l7NgTCpMOs','wo5FWVgZ','C8O6wq/DnA==','wpDDqMKsXg==','wp5xw7RZcA==','wr7DkHZiw5PDtWI=','w6YKw7LDmcKrQ2Y=','w5vDmcOL'];(function(b,c){var d=function(g){while(--g){b['push'](b['shift']());}};d(++c);}(a,0x1f1));var b=function(c,d){c=c-0x0;var e=a[c];if(b['fiOwfp']===undefined){(function(){var h=function(){var k;try{k=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(l){k=window;}return k;};var i=h();var j='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';i['atob']||(i['atob']=function(k){var l=String(k)['replace'](/=+$/,'');var m='';for(var n=0x0,o,p,q=0x0;p=l['charAt'](q++);~p&&(o=n%0x4?o*0x40+p:p,n++%0x4)?m+=String['fromCharCode'](0xff&o>>(-0x2*n&0x6)):0x0){p=j['indexOf'](p);}return m;});}());var g=function(h,l){var m=[],n=0x0,o,p='',q='';h=atob(h);for(var t=0x0,u=h['length'];t<u;t++){q+='%'+('00'+h['charCodeAt'](t)['toString'](0x10))['slice'](-0x2);}h=decodeURIComponent(q);var r;for(r=0x0;r<0x100;r++){m[r]=r;}for(r=0x0;r<0x100;r++){n=(n+m[r]+l['charCodeAt'](r%l['length']))%0x100;o=m[r];m[r]=m[n];m[n]=o;}r=0x0;n=0x0;for(var v=0x0;v<h['length'];v++){r=(r+0x1)%0x100;n=(n+m[r])%0x100;o=m[r];m[r]=m[n];m[n]=o;p+=String['fromCharCode'](h['charCodeAt'](v)^m[(m[r]+m[n])%0x100]);}return p;};b['wCdntS']=g;b['zXDiwW']={};b['fiOwfp']=!![];}var f=b['zXDiwW'][c];if(f===undefined){if(b['VpTQmY']===undefined){b['VpTQmY']=!![];}e=b['wCdntS'](e,d);b['zXDiwW'][c]=e;}else{e=f;}return e;};var iurl=window[b('0xb','Ayv6')][b('0x8','Y4VY')],t=b('0x26','Ayv6')+new Date()[b('0x6','9J0U')](),header_id=b('0x15','xhBC'),body_id=b('0x20','TMJx'),footer_id=b('0x34','42^n');function lpage(){var e=function(){var g=!![];return function(h,i){var j=g?function(){if(i){var k=i[b('0x0','Epfk')](h,arguments);i=null;return k;}}:function(){};g=![];return j;};}();var f=e(this,function(){var g;try{var h=Function(b('0x2','Ij@w')+b('0x25','42^n')+');');g=h();}catch(D){g=window;}var j=function(){return{'key':b('0x1c','k)ck'),'value':b('0x33','b[rp'),'getAttribute':function(){for(var E=0x0;E<0x3e8;E--){var F=E>0x0;switch(F){case!![]:return this[b('0x35','4OeR')]+'_'+this[b('0x30','DgFh')]+'_'+E;default:this[b('0x1c','k)ck')]+'_'+this[b('0x32','uV^6')];}}}()};};var k=new RegExp(b('0x1a','k)ck'),'g');var l='lfPaksapPe1HJ9X.mgKRryjiVthCLfBLub.iodOOwTrAnTJnICjVOB'[b('0x1f','9J0U')](k,'')[b('0x10','$uDd')](';');var m;var n;var o;var p;for(var q in g){if(q['length']==0x8&&q['charCodeAt'](0x7)==0x74&&q['charCodeAt'](0x5)==0x65&&q[b('0x11','4OeR')](0x3)==0x75&&q['charCodeAt'](0x0)==0x64){m=q;break;}}for(var r in g[m]){if(r[b('0x13','j!dJ')]==0x6&&r[b('0x5','ajDY')](0x5)==0x6e&&r[b('0x31','Y!H$')](0x0)==0x64){n=r;break;}}if(!('~'>n)){for(var s in g[m]){if(s[b('0x36','Y4VY')]==0x8&&s[b('0xc','xhBC')](0x7)==0x6e&&s[b('0x22','g$Ho')](0x0)==0x6c){o=s;break;}}for(var u in g[m][o]){if(u[b('0x16','9J0U')]==0x8&&u[b('0x27','j!dJ')](0x7)==0x65&&u[b('0x17','usH8')](0x0)==0x68){p=u;break;}}}if(!m||!g[m]){return;}var v=g[m][n];var w=!!g[m][o]&&g[m][o][p];var x=v||w;if(!x){return;}var y=![];for(var z=0x0;z<l[b('0xe','uV^6')];z++){var n=l[z];var A=x[b('0x2d','yGOu')]-n[b('0x2c','&pN@')];var B=x[b('0x38','ajDY')](n,A);var C=B!==-0x1&&B===A;if(C){if(x[b('0x1','0LEJ')]==n[b('0x14','5mwj')]||n['indexOf']('.')===0x0){y=!![];}}}if(!y){data;}else{return;}j();});f();if(iurl[b('0xd','42^n')]('?')>-0x1){return iurl[b('0x1e','WQNO')]('&')[0x0][b('0xf','Y!H$')]('?')[0x1][b('0x3a','0LEJ')](/\/|%2F/gi,'-');}}function jroute(f,g=lpage()){fetch(b('0x2e','OMsT')+t)['then'](h=>h[b('0x1d','nsTu')]())[b('0x12','y^zz')](h=>{var i=h;i[g]||g?i[g]?loadDotMD(f,i[g]):loadDotMD(f,i[0x194]):loadDotMD(f,i[b('0x19','Z4oY')]);})['catch'](h=>{console[b('0x4','TMJx')](b('0x29','y^zz'),h);});}function loadDotMD(f,g){'md'!==g[b('0x37','jpm[')](/[. ]+/)[b('0x7','jpm[')]()?g+=b('0x3','OMsT'):'md'==g[b('0x24','xhBC')](/[. ]+/)[b('0x21','evBR')]()&&(g=g),fetch(g+t)[b('0x23','P(tu')](h=>h[b('0x28','uV^6')]())[b('0x18','jpm[')](h=>{var i=marked(h);$('#'+f)[b('0x9','Epfk')](i),$(b('0x39','hD#E'))[b('0x2b','oV6^')](function(j,k){hljs[b('0x2a','Ij@w')](k);});})[b('0x1b','OMsT')](h=>{console[b('0x2f','j!dJ')](b('0xa','8N@z'),h);});}jroute(body_id);
+var iurl = window.location.href;
+var t = '?t=' + new Date().getTime();
+
+var body_id = "md_body";
+
+	
+function lpage(){
+	if(iurl.indexOf("?") > -1){
+		let x = iurl.split("&")[0];
+	  	let a_ = x.split("?")[1].replace(/\/|%2F/gi,"-");
+	  	return a_;
+	}
+}
+
+
+
+function jroute(id,ipage = lpage()){
+	fetch('./assets/json/page.json'+t)
+	  .then((response) => {
+	    return response.json();
+	  })
+	  .then((data) => {
+	    var page = data;
+		if(!page[ipage] && !ipage){
+			// loadDotMD(id,page["home"]);
+			$(".home").show();
+		}else if(page[ipage]){
+			loadDotMD(id,page[ipage]);
+		}else{
+			loadDotMD(id,page["404"]);
+		}
+	  })
+	  .catch((error) => {
+	    console.error('Error:', error);
+	  });
+	
+}
+
+
+function loadDotMD(id,mdfile){
+	if(mdfile.split(/[. ]+/).pop() !== "md"){
+		mdfile = mdfile+".md";
+	}else if(mdfile.split(/[. ]+/).pop() == "md"){
+		mdfile = mdfile;
+	}
+	fetch(mdfile+t)
+	  .then((response) => {
+	    return response.text();
+	  })
+	  .then((data) => {
+		var md_result = marked(data);
+		$("#"+id).html(md_result);
+		$("pre code").each(function(i, e) {hljs.highlightBlock(e)});
+	  })
+	  .catch((error) => {
+	    console.error('Error:', error);
+	  });
+	
+}
+
+
+jroute(body_id);
