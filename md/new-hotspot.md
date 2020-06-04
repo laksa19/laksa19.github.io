@@ -25,7 +25,7 @@ theme : "default", // default, dark, lite
 
 // status expire
 
-url : "https://demo.mikhmon.online", 
+url : "https://demo.mikhmon.online", // url server Mikhmon
 SessionName : "demo", 
 
 }
