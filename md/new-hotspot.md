@@ -31,3 +31,5 @@ SessionName : "demo",
 ```
 
 [![](./assets/img/download.png) Panduan Instalasi](https://github.com/laksa19/new-hotspot-01)
+
+[![](./assets/img/book.png) Kumpulan template lama](./?templatehotspot)
