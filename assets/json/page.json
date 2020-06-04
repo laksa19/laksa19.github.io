@@ -12,6 +12,7 @@
 
 "myqr":"./md/myqr",
 "templatehotspot":"https://raw.githubusercontent.com/laksa19/template-hotspot-mikhmon/master/README.md",
+"new-hotspot":"./md/new-hotspot.md",
 
 "blog":"./md/blog",
 "blog-set-date-time":"./md/blog/set-date-time",
