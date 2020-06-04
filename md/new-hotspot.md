@@ -1,6 +1,6 @@
 ### Template Hotspot Mikhmon
 
-New Template Hotspot Mikhmon base on default MikroTik v6.47
+New Template Hotspot Mikhmon base on default hotspot MikroTik v6.47
 
 ----
 
