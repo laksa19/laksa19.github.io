@@ -3,7 +3,7 @@
  *
  * Copyright 2020 Laksamadi Guko
  */
-
+fbclid
 var iurl = window.location.href;
 var t = '?t=' + new Date().getTime();
 
@@ -27,7 +27,7 @@ function jroute(id,ipage = lpage()){
 	  })
 	  .then((data) => {
 	    var page = data;
-		if(!page[ipage] && !ipage){
+		if((!page[ipage] && !ipage) || (ipage.split("=")[0] == "fbclid")){
 			// loadDotMD(id,page["home"]);
 			$(".home").show();
 		}else if(page[ipage]){
