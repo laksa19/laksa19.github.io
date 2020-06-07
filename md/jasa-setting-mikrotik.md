@@ -49,3 +49,9 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Estimasi biaya : Sesuai kebutuhan, mulai `Rp50.000` sampai `Rp5.000.000`
 - Syarat dan ketentuan : Kirim gambar topologi.    
 
+#### Jak Net
+- WA : [Klik di sini](https://wa.me/6283129199615)
+- Website : [JakNet](https://www.facebook.com/Jaknet22)
+- Estimasi biaya : Rp200.000 - Rp2.000.000
+- Syarat dan Ketentuan : `Games` `Latency` `Sosmed` `Youtube` `Streaming` `Browsing` `Download`
+
