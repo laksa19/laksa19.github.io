@@ -63,16 +63,17 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Website : [BuanaNet](https://www.facebook.com/buananetmikrotik)
 - Estimasi biaya : `dinamis`
 - Syarat dan Ketentuan :
-  Ketentuan umum silahkan konsultasi kan topologi nya dan request.
-  PERATURAN GARANSI DAN MAINTENANCE:
-   1. Garansi dan Support berlaku 1 bulan, termasuk cek jaringan dan permasalahan pada settingan Mikrotik.
-   2. Garansi dan Support tidak berlaku jika terjadi kerusakan dan penggantian perangkat Mikrotik, kecuali ada perjanjian diawal.
-   3. Garansi dan Support tidak berlaku jika melakukan perubahan sendiri setingan Mikrotik.
-   4. Garansi dan Support secara gratis akan kami berikan untuk sekedar cek permasalahan jaringan seperti Browsing lemot dan Game Lag (*dengan catatan tidak ada kewajiban kami harus saat itu juga melakukan pengecekan*)
-   5. Garansi dan Support diluar masa garansi akan dikenakan biaya tambahan sesuai dengan tingkat kerumitan, terutama jika ada penambahan dan perbaikan script misalkan pada Firewall, Queue dan Routing.
-   6. Garansi dan Support diluar masa garansi jika ada penambahan atau pengurangan Line Internet Service Provider (ISP) akan dikenakan biaya tambahan.
-   7. Untuk menghindari kesalahan atau pembobolan atau duplikasi script, hanya kami yang memegang hak akses "Full" Admin Router, selain itu client hanya bisa akses "Read/Write".
-   8. Jika suatu saat ada permintaan hak akses "Full" Admin Router untuk keperluan khusus seperti reset, akses ftp dan lainnya tetap akan kami berikan dengan syarat kami tidak mensupport lagi setelahnya, terkecuali hak full akses di kembalikan lagi ke Read/Write maka akan tetap kami support.
+  - Ketentuan umum silahkan konsultasi kan topologi nya dan request.
+     
+     PERATURAN GARANSI DAN MAINTENANCE:
+    1. Garansi dan Support berlaku 1 bulan, termasuk cek jaringan dan permasalahan pada settingan Mikrotik.
+    2. Garansi dan Support tidak berlaku jika terjadi kerusakan dan penggantian perangkat Mikrotik, kecuali ada perjanjian diawal.
+    3. Garansi dan Support tidak berlaku jika melakukan perubahan sendiri setingan Mikrotik.
+    4. Garansi dan Support secara gratis akan kami berikan untuk sekedar cek permasalahan jaringan seperti Browsing lemot dan Game Lag (*dengan catatan tidak ada kewajiban kami harus saat itu juga melakukan pengecekan*)
+    5. Garansi dan Support diluar masa garansi akan dikenakan biaya tambahan sesuai dengan tingkat kerumitan, terutama jika ada penambahan dan perbaikan script misalkan pada Firewall, Queue dan Routing.
+    6. Garansi dan Support diluar masa garansi jika ada penambahan atau pengurangan Line Internet Service Provider (ISP) akan dikenakan biaya tambahan.
+    7. Untuk menghindari kesalahan atau pembobolan atau duplikasi script, hanya kami yang memegang hak akses "Full" Admin Router, selain itu client hanya bisa akses "Read/Write".
+    8. Jika suatu saat ada permintaan hak akses "Full" Admin Router untuk keperluan khusus seperti reset, akses ftp dan lainnya tetap akan kami berikan dengan syarat kami tidak mensupport lagi setelahnya, terkecuali hak full akses di kembalikan lagi ke Read/Write maka akan tetap kami support.
    Pastikan jangan salah memilih jasa setting, karena beda setingan akan berbeda pula hasilnya.
 ---
 <div>
