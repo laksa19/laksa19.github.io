@@ -4,7 +4,7 @@
  * Copyright 2020 Laksamadi Guko
  */
 
-var iurl = window.location.href;
+var iurl = location.href;
 var t = '?t=' + new Date().getTime();
 
 var body_id = "md_body";
