@@ -118,3 +118,9 @@ Generate Voucher dan pencetakan user baru di hotspot tanpa biaya.
   - Jika diketemukan; ingin mencari jasa lain, maka akan kami beri akses Full; dgn ketentuan bahwa telah terjadi putusnya kontrak kerja.
   - Belum termasuk setting AP, Klien Router.
 ---
+#### Yuli Ismanto
+- WS : [Klik di sini](https://wa.me/6281279995166)
+- Website : [Yuli.Ismanto](https://www.facebook.com/Ajodowngrade)
+- Estimasi biaya : `Rp100.000` - `5.000.000`
+- Syarat & ketentuan : Menyiapkan/bersedia memberikan gambaran topologi dan yg pasti konsul gratis remote bayar.
+---
