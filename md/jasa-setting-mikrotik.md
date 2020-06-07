@@ -64,3 +64,22 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Estimasi biaya : `Rp200.000` - `Rp2.000.000`
 - Syarat dan Ketentuan : `Games` `Latency` `Sosmed` `Youtube` `Streaming` `Browsing` `Download`
 
+#### Barkatech Networking
+>Utk berlangganan tiap bulan, tanpa ribet, kami bisa jadi assist anda, PM utk detail
+Siap membangunkan infrastruktur baru, untuk skala UKM kebawah, agar memiliki Jasa penyedia akses internet hotspot.
+Generate Voucher dan pencetakan user baru di hotspot tanpa biaya.
+- Produk
+  - SETUP MIKROTIK INCLUDE STANDARD HOTSPOT 150
+  - SETUP HOTSPOT+PPPOE FULL PLUS TEMPLATE KEREN 200
+  - LOADBALANCE 250
+  - PISAH JALUR GAME ONLINE, UMUM, YOUTUBE 250
+
+- WA : [Klik di sini](https://wa.me/6282271100232) (WA Only)
+- Website : - `Instagram  toko_barka` `Facebook  Mubarok Ahmad` `FB Page  barka_tech`
+- Estimasi biaya : `Rp150.000` - `Rp1.000.000`
+- Syarat dan ketentuan : 
+  - Akses hanya kami berikan pada klien kami, sebatas Read and Write saja.
+  - Untuk akses Full, hanya pihak kamu yang memiliki akses.
+  - Jika diketemukan; ingin mencari jasa lain, maka akan kami beri akses Full; dgn ketentuan bahwa telah terjadi putusnya kontrak kerja.
+  - Belum termasuk setting AP, Klien Router.
+
