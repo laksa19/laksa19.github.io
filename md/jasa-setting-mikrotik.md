@@ -9,13 +9,13 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Syarat dan Ketentuan : 
   - Menyiapkan gambar topologi sebelum melakukan Remot , & Prosedur Tranfer Dahulu Baru Remot.
   - Biaya Tergantung Request Dan Topologi Jaringan Anda.
-
+---
 #### Setting Router MikroTik, Inatallasi Warnet & Game Online Mode Diskless
 - WA : [Klik di sini](https://wa.me/62811511848)
 - Website : [Jaringanbanjar.net](http://jaringanbanjar.net) ( coming soon )
 - Estimasi biaya : `Rp300.000` - `Rp5.000.000`
 - Syarat dan ketentuan : di utamakan Daerah Kalimantan Selatan , Luar Kalimantan Silahkan PM
-
+---
 #### Inikaryaku / Riyadhul Jannah 
 >(setting MikroTik, OpenWrt, Flash eeprom, Loadbalance, Unlock Cisco ke standalone dll..
 - WA : [Klik di sini](https://wa.me/6282126666957)
@@ -25,13 +25,13 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
   - Harga hanya jasa setting, peralatan MikroTik Access Point dan lainnya sudah ada terutama akses internet.
   - Untuk yang pakai Cisco harga unlock Cisco di luar biaya setting MikroTik.
   - Luar jangkauan via remote, kecuali flash chip eeprom & unlock Cisco tidak menerima via remote.
-  
+---
 #### Shinobie Palembang
 - WA : [Klik di sini](https://wa.me/6281272176746)
 - Website : [shinobie.com](http://shinobie.com)
 - Estimasi biaya : `disesuaikan dengan kebutuhan`
 - Syarat dan Ketentuan : Team Viewer, Ultra Viewer, AnyDesk
-
+---
 <div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- ads3 -->
@@ -51,13 +51,13 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
   - Metode limitasi : Queue Tree
     - Pemisahan di atas berlaku untuk penggunaan 1 line ISP, apabila ada load balance didalamnya maka harga menyesuaikan dengan teknik load balance yang di pakai.
     - Garansi setting selamanya (hanya berlaku pada perbaikan, penambahan fitur akan dikenakan biaya).
-    
+---    
 #### Purwanto (Setting Mikrotik se-Indonesia)
 - WA : [Klik di sini](https://wa.me/6282233483221)
 - Website: [Purwanto](https://fb.com/botdrex)
 - Estimasi biaya : Sesuai kebutuhan, mulai `Rp50.000` sampai `Rp5.000.000`
 - Syarat dan ketentuan : Kirim gambar topologi.    
-
+---
 #### BuanaNet - Jasa Setting Mikrotik 100% Terpercayaa
 - WA : [Klik di sini](https://wa.me/6281328298448)
 - Website : [BuanaNet](https://www.facebook.com/buananetmikrotik)
@@ -74,7 +74,7 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
    7. Untuk menghindari kesalahan atau pembobolan atau duplikasi script, hanya kami yang memegang hak akses "Full" Admin Router, selain itu client hanya bisa akses "Read/Write".
    8. Jika suatu saat ada permintaan hak akses "Full" Admin Router untuk keperluan khusus seperti reset, akses ftp dan lainnya tetap akan kami berikan dengan syarat kami tidak mensupport lagi setelahnya, terkecuali hak full akses di kembalikan lagi ke Read/Write maka akan tetap kami support.
    Pastikan jangan salah memilih jasa setting, karena beda setingan akan berbeda pula hasilnya.
-
+---
 <div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- ads3 -->
@@ -90,7 +90,7 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Website : [JakNet](https://www.facebook.com/Jaknet22)
 - Estimasi biaya : `Rp200.000` - `Rp2.000.000`
 - Syarat dan Ketentuan : `Games` `Latency` `Sosmed` `Youtube` `Streaming` `Browsing` `Download`
-
+---
 #### Barkatech Networking
 >Utk berlangganan tiap bulan, tanpa ribet, kami bisa jadi assist anda, PM utk detail
 Siap membangunkan infrastruktur baru, untuk skala UKM kebawah, agar memiliki Jasa penyedia akses internet hotspot.
@@ -109,4 +109,4 @@ Generate Voucher dan pencetakan user baru di hotspot tanpa biaya.
   - Untuk akses Full, hanya pihak kamu yang memiliki akses.
   - Jika diketemukan; ingin mencari jasa lain, maka akan kami beri akses Full; dgn ketentuan bahwa telah terjadi putusnya kontrak kerja.
   - Belum termasuk setting AP, Klien Router.
-
+---
