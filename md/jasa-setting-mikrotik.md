@@ -1,5 +1,6 @@
 ### Jasa Setting MikroTik
 Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa berikut.
+>Semua penyedia jasa yang tercantum di sini adalah penyedia jasa mandiri bukan dari Mikhmon.
 
 #### Jasa Setting Mikrotik PropesionaL
 - WA : [Klik di sini](bit.ly/2MkCETR)
