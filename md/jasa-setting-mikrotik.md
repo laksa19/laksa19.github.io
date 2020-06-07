@@ -1,6 +1,14 @@
 ### Jasa Setting MikroTik
 Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa berikut.
 
+#### Jasa Setting Mikrotik PropesionaL
+- WA : [Klik di sini](bit.ly/2MkCETR)
+- Website : [zainalrinaldi90](https://www.facebook.com/zainalrinaldi90)
+- Estimasi biaya : `Rp300.000` - `Rp1.000.000`
+- Syarat dan Ketentuan : 
+  - Menyiapkan gambar topologi sebelum melakukan Remot , & Prosedur Tranfer Dahulu Baru Remot.
+  - Biaya Tergantung Request Dan Topologi Jaringan Anda.
+
 #### Setting Router MikroTik, Inatallasi Warnet & Game Online Mode Diskless
 - WA : [Klik di sini](https://wa.me/62811511848)
 - Website : [Jaringanbanjar.net](http://jaringanbanjar.net) ( coming soon )
