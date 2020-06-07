@@ -8,7 +8,7 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Syarat dan ketentuan : di utamakan Daerah Kalimantan Selatan , Luar Kalimantan Silahkan PM
 
 #### Inikaryaku / Riyadhul Jannah 
->(setting mikrotik, OpenWrt, Flash eeprom, Loadbalance, Unlock Cisco ke standalone dll..
+>(setting MikroTik, OpenWrt, Flash eeprom, Loadbalance, Unlock Cisco ke standalone dll..
 - WA : [Klik di sini](https://wa.me/6282126666957)
 - Website : -
 - Estimasi biaya : `Rp200.000` - `Rp2.000.000`
