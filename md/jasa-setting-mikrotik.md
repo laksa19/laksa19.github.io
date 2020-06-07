@@ -92,6 +92,13 @@ Untuk yang membutuhkan jasa setting MikroTik, silakan hubungi penyedia jasa beri
 - Estimasi biaya : `Rp200.000` - `Rp2.000.000`
 - Syarat dan Ketentuan : `Games` `Latency` `Sosmed` `Youtube` `Streaming` `Browsing` `Download`
 ---
+#### Jasa Reset MikroTik, Autopilot MikroTik
+>LB 2 wireles autopilot openwrt...
+- WA : [Klik di sini](https://wa.me/628112615677)
+- Website : [idun.sibolank]( https://www.facebook.com/idun.sibolank)
+- Estimasi biaya : Mulai dari `Rp100.000`
+- Syarat dan Ketentuan : Kirim gambar topologi, Desain Loginpage, Garansi 1 Bulan, Ganti MikroTik, garansi hilang.
+---
 #### Barkatech Networking
 >Utk berlangganan tiap bulan, tanpa ribet, kami bisa jadi assist anda, PM utk detail
 Siap membangunkan infrastruktur baru, untuk skala UKM kebawah, agar memiliki Jasa penyedia akses internet hotspot.
