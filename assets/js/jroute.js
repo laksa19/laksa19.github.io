@@ -66,3 +66,30 @@ function loadDotMD(id,mdfile){
 
 
 jroute(body_id);
+    const imacontent = "<div style='position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;'><img src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>Please disable your Ad Blocker</h3></div>";
+    const as = setInterval(function(){
+    if(!document.querySelector('ins[id^=aswift_]')){
+        console.log("ads not found! triple kill!");
+        document.body.innerHTML = imacontent;
+        setTimeout(function(){
+            clearInterval(as)
+        },5000)
+        window.stop();
+    }else{
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://static.doubleclick.net/instream/ad_status.js?'+ new Date().getTime(), false);
+        try {
+          xhr.send();
+          if (xhr.status != 200) {
+            console.log(`Error ${xhr.status}: ${xhr.statusText}`);
+          } else {
+            console.log("ads ok!");
+            clearInterval(as)
+          }
+        } catch(err) {
+          console.log("ads not found! triple kill!");
+          document.body.innerHTML = imacontent;
+          window.stop();
+        }
+    }
+},2500);
