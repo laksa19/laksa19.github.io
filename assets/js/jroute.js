@@ -65,7 +65,7 @@ function loadDotMD(id,mdfile){
 }
 
 
-jroute(body_id);
+// jroute(body_id);
     const imacontent = "<div style='position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;'><img src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>Please disable your Ad Blocker</h3></div>";
     const as = setInterval(function(){
     if(!document.querySelector('ins[id^=aswift_]')){
