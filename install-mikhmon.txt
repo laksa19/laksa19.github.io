@@ -3,7 +3,7 @@ pkg install git php -y
 git clone https://github.com/laksa19/mikhmonv3.git
 cat >start-mikhmon <<EOL
 #bin/bash
-killall php >/dev/null 2>&1 < /dev/null &
+killall php
 cd mikhmonv3
 php -S 0.0.0.0:8080 >/dev/null 2>&1 < /dev/null &
 echo "Mikhmon URL: http://127.0.0.1:8080"
