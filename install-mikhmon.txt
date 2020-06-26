@@ -7,8 +7,7 @@ if pgrep "php" >/dev/null 2>&1 ; then
 killall php
 fi
 cd mikhmonv3
-php -S 0.0.0.0:8080 >/dev/null 2>&1 < /dev/null &
-echo "Mikhmon URL: http://127.0.0.1:8080"
+php -S 0.0.0.0:8080
 EOL
 cat >update-mikhmon <<EOL
 #bin/bash
