@@ -160,11 +160,9 @@
 		})
 		$(document).ready(function(){
 
-		    $.getScript( "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", function( data, textStatus, jqxhr ) {
-			  console.log( data ); // Data returned
-			  console.log( textStatus ); // Success
-			  console.log( jqxhr.status ); // 200
-			  console.log( "Load was performed." );
+		    $.getScript( "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", function( textStatus, jqxhr ) {
+			  console.log( textStatus );
+			  console.log( jqxhr.status );
 			}); 
 
 		});
