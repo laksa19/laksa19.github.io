@@ -1,3 +1,6 @@
+### MIKHMON V4 Beta1
+Silakan cek di [link ini](./?templatehotspot "Read more...")
+
 ### MIKHMON
 Mikrotik Hotspot Monitor
 
