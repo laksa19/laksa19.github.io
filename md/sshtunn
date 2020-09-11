@@ -1,0 +1,83 @@
+#bin/bash
+apt update
+apt install openssl -y
+apt install screen -y
+
+echo "installing Dropbear..."
+apt install -y dropbear
+
+echo ""
+echo "Configuring Dropbear..."
+sleep 1
+echo ""
+
+cat >/etc/default/dropbear <<EOL
+NO_START=0
+
+DROPBEAR_PORT=3128
+
+DROPBEAR_EXTRA_ARGS=
+
+DROPBEAR_BANNER=
+
+DROPBEAR_RECEIVE_WINDOW=65536
+EOL
+
+sleep 1
+/etc/init.d/dropbear start
+sleep 1
+/etc/init.d/dropbear stop
+sleep 1
+/etc/init.d/dropbear start
+
+echo ""
+echo "Installing Stunnel"
+echo ""
+apt install -y stunnel4
+
+echo ""
+echo "Confinguring Stunnel..."
+sleep 1
+cat >/etc/stunnel/stunnel.conf <<EOL
+cert = /etc/stunnel/stunnel.pem
+client = no
+socket = a:SO_REUSEADDR=1
+socket = l:TCP_NODELAY=1
+socket = r:TCP_NODELAY=1
+
+[dropbear]
+connect = 127.0.0.1:3128
+accept = 443
+EOL
+echo "" >> /etc/stunnel/stunnel.pem
+cat >/etc/default/stunnel4 <<EOL
+ENABLED=1
+FILES="/etc/stunnel/*.conf"
+OPTIONS=""
+
+PPP_RESTART=0
+
+RLIMITS=""
+EOL
+
+echo ""
+echo "Generating Certificate..."
+sleep 1
+openssl genrsa -out key.pem 2048
+openssl req -new -x509 -key key.pem -out cert.pem -days 3650 -nodes -x509 -subj "/C=ID/ST=East Java/L=Surabaya/O=Mikhmon/CN=Laksamadi Guko"
+rm /etc/stunnel/stunnel.pem
+cat key.pem cert.pem >> /etc/stunnel/stunnel.pem
+echo ""
+/etc/init.d/stunnel4 start
+sleep 1
+/etc/init.d/stunnel4 stop
+sleep 1
+/etc/init.d/stunnel4 start
+echo ""
+echo "Installing UDPGW..."
+echo ""
+wget --show-progress --progress=bar:force -qO /usr/bin/badvpn-udpgw https://raw.githubusercontent.com/laksa19/corat-coret/master/udpgw/badvpn-udpgw64 && sudo chmod +x /usr/bin/badvpn-udpgw 
+echo ""
+echo "Set cron job (udpgw startup)..."
+(crontab -l 2>/dev/null; echo "@reboot screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300") | crontab -
+echo ""
