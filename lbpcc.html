@@ -72,24 +72,24 @@
                         <div class="card-body" style="overflow-y: auto;">
                             <table id="script" style=" white-space: nowrap;">
                                 <tr><td>/ip firewall nat</td></tr>
-                                <tr><td>add chain=srcnat out-interface=<span class="ifWAN1">ether1</span> action=masquerade</td></tr>
-                                <tr><td>add chain=srcnat out-interface=<span class="ifWAN2">ether2</span> action=masquerade</td></tr>
+                                <tr><td>add chain=srcnat out-interface=<span class="ifWAN1">ether1</span> action=masquerade comment="lbpcc"</td></tr>
+                                <tr><td>add chain=srcnat out-interface=<span class="ifWAN2">ether2</span> action=masquerade comment="lbpcc"</td></tr>
                                 <tr><td>/ip firewall mangle</td></tr>
-                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifWAN1">ether1</span> new-connection-mark=CM-WAN1 passthrough=yes</td></tr>
-                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifWAN2">ether2</span> new-connection-mark=CM-WAN2 passthrough=yes</td></tr>
-                                <tr><td>add chain=prerouting dst-address=<span class="ipclWAN1">192.168.1</span>.0/24 action=accept in-interface=<span class="ifLAN">ether3</span></td></tr>
-                                <tr><td>add chain=prerouting dst-address=<span class="ipclWAN2">192.168.0</span>.0/24 action=accept in-interface=<span class="ifLAN">ether3</span></td></tr>
-                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifLAN">ether3</span> new-connection-mark=CM-WAN1 passthrough=yes per-connection-classifier=both-addresses-and-ports:2/0 dst-address-type=!local</td></tr>
-                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifLAN">ether3</span> new-connection-mark=CM-WAN2 passthrough=yes per-connection-classifier=both-addresses-and-ports:2/1 dst-address-type=!local</td></tr>
-                                <tr><td>add action=mark-routing chain=prerouting connection-mark=CM-WAN1 in-interface=<span class="ifLAN">ether3</span> new-routing-mark=RM-WAN1 passthrough=yes</td></tr>
-                                <tr><td>add action=mark-routing chain=prerouting connection-mark=CM-WAN2 in-interface=<span class="ifLAN">ether3</span> new-routing-mark=RM-WAN2 passthrough=yes</td></tr>
-                                <tr><td>add action=mark-routing chain=output connection-mark=CM-WAN1 new-routing-mark=RM-WAN1 passthrough=yes</td></tr>
-                                <tr><td>add action=mark-routing chain=output connection-mark=CM-WAN2 new-routing-mark=RM-WAN2 passthrough=yes</td></tr>
+                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifWAN1">ether1</span> new-connection-mark=CM-WAN1 passthrough=yes comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifWAN2">ether2</span> new-connection-mark=CM-WAN2 passthrough=yes comment="lbpcc"</td></tr>
+                                <tr><td>add chain=prerouting dst-address=<span class="ipclWAN1">192.168.1</span>.0/24 action=accept in-interface=<span class="ifLAN">ether3</span> comment="lbpcc"</td></tr>
+                                <tr><td>add chain=prerouting dst-address=<span class="ipclWAN2">192.168.0</span>.0/24 action=accept in-interface=<span class="ifLAN">ether3</span> comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifLAN">ether3</span> new-connection-mark=CM-WAN1 passthrough=yes per-connection-classifier=both-addresses-and-ports:2/0 dst-address-type=!local comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-connection chain=prerouting connection-mark=no-mark in-interface=<span class="ifLAN">ether3</span> new-connection-mark=CM-WAN2 passthrough=yes per-connection-classifier=both-addresses-and-ports:2/1 dst-address-type=!local comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-routing chain=prerouting connection-mark=CM-WAN1 in-interface=<span class="ifLAN">ether3</span> new-routing-mark=RM-WAN1 passthrough=yes comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-routing chain=prerouting connection-mark=CM-WAN2 in-interface=<span class="ifLAN">ether3</span> new-routing-mark=RM-WAN2 passthrough=yes comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-routing chain=output connection-mark=CM-WAN1 new-routing-mark=RM-WAN1 passthrough=yes comment="lbpcc"</td></tr>
+                                <tr><td>add action=mark-routing chain=output connection-mark=CM-WAN2 new-routing-mark=RM-WAN2 passthrough=yes comment="lbpcc"</td></tr>
                                 <tr><td>/ip route</td></tr>
-                                <tr><td>add check-gateway=ping distance=1 gateway=<span class="ipgwWAN1">192.168.1.1</span> routing-mark=RM-WAN1</td></tr>
-                                <tr><td>add check-gateway=ping distance=1 gateway=<span class="ipgwWAN2">192.168.0.1</span> routing-mark=RM-WAN2</td></tr>
-                                <tr><td>add check-gateway=ping distance=1 gateway=<span class="ipgwWAN1">192.168.1.1</span></td></tr>
-                                <tr><td>add check-gateway=ping distance=2 gateway=<span class="ipgwWAN2">192.168.0.1</span></td></tr>
+                                <tr><td>add check-gateway=ping distance=1 gateway=<span class="ipgwWAN1">192.168.1.1</span> routing-mark=RM-WAN1 comment="WAN1"</td></tr>
+                                <tr><td>add check-gateway=ping distance=1 gateway=<span class="ipgwWAN2">192.168.0.1</span> routing-mark=RM-WAN2 comment="WAN2"</td></tr>
+                                <tr><td>add check-gateway=ping distance=1 gateway=<span class="ipgwWAN1">192.168.1.1</span> comment="WAN1"</td></tr>
+                                <tr><td>add check-gateway=ping distance=2 gateway=<span class="ipgwWAN2">192.168.0.1</span> comment="WAN2"</td></tr>
                                 <tr><td></td></tr>
                             </table>
                         </div>
