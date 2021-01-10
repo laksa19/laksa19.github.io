@@ -44,7 +44,7 @@ NTP server dapat diperoleh di situs berikut,
 	</script>
 </div>
 
-#### Panduan Install Mikhmon di Android via Termux
+<!---#### Panduan Install Mikhmon di Android via Termux
 
 1. Install Termux PlayStore.
 	>Munculkan CTRL di Termux : Tekan volume up + q
@@ -78,7 +78,7 @@ Remove Mikhmon : ./remove-mikhmon
 [![](./assets/img/video.png) Video Panduan](https://youtu.be/fvjCGlIAwqg)
 
 ----
-
+-->
 #### Pembuatan User Hotspot
 
 1. Validity = Masa Aktif, waktu akan terus berjalan dipakai mautun tidak dipakai sejak login.
