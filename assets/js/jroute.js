@@ -66,30 +66,96 @@ function loadDotMD(id,mdfile){
 
 
 jroute(body_id);
-    const imacontent = "<div style='position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;'><img src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>Please disable your Ad Blocker</h3></div>";
-    const as = setInterval(function(){
-    if(!document.querySelector('ins[id^=aswift_]')){
-        console.log("ads not found! triple kill!");
-        document.body.innerHTML = imacontent;
-        setTimeout(function(){
-            clearInterval(as)
-        },5000)
-        window.stop();
-    }else{
-        let xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://static.doubleclick.net/instream/ad_status.js?'+ new Date().getTime(), false);
+//     const imacontent = "<div style='position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;'><img src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>Please disable your Ad Blocker</h3></div>";
+//     const as = setInterval(function(){
+//     if(!document.querySelector('ins[id^=aswift_]')){
+//         console.log("ads not found! triple kill!");
+//         document.body.innerHTML = imacontent;
+//         setTimeout(function(){
+//             clearInterval(as)
+//         },5000)
+//         window.stop();
+//     }else{
+//         let xhr = new XMLHttpRequest();
+//         xhr.open('GET', 'https://static.doubleclick.net/instream/ad_status.js?'+ new Date().getTime(), false);
+//         try {
+//           xhr.send();
+//           if (xhr.status != 200) {
+//             console.log(`Error ${xhr.status}: ${xhr.statusText}`);
+//           } else {
+//             console.log("ads ok!");
+//             clearInterval(as)
+//           }
+//         } catch(err) {
+//           console.log("ads not found! triple kill!");
+//           document.body.innerHTML = imacontent;
+//           window.stop();
+//         }
+//     }
+// },2500);
+
+
+let logokwi = new XMLHttpRequest();
+logokwi.open( "GET", "https://laksa19.github.io/assets/img/kawaii-sad.png", true );
+logokwi.send();
+let idk = mkid();
+let kawaiisad = "<div style='display: block;  margin-left: auto;  margin-right: auto;  width: 50%; text-align:center;'><img id='"+idk+"' src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>You are using adblock or your DNS blocked the ads. Please disable it for this site.</h3></div>";
+
+function ij(){
+  document.getElementById("laksagit").innerHTML = kawaiisad;
+  console.log("ads not found! triple kill!");
+  window.stop();
+}
+
+function mkid()
+  {
+	  var text = "";
+	  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+	  for( var i=0; i < 10; i++ ){
+		  text += possible.charAt(Math.floor(Math.random() * possible.length));
+      }
+	  return text;
+  }
+
+function getAdsJS(url){
+    let xhr = new XMLHttpRequest();
+        xhr.open('GET', url+'?'+ new Date().getTime(), false);
         try {
           xhr.send();
           if (xhr.status != 200) {
             console.log(`Error ${xhr.status}: ${xhr.statusText}`);
           } else {
-            console.log("ads ok!");
-            clearInterval(as)
+            console.log("AdSense OK");
+              clearInterval(a)
           }
         } catch(err) {
+            ij();
           console.log("ads not found! triple kill!");
-          document.body.innerHTML = imacontent;
           window.stop();
         }
+}
+
+
+
+function chkAds() {
+
+   if(!document.querySelector('ins[id^=aswift_]')){
+        console.log("checking ads...");
+       ij();
+        console.log("ads not found! triple kill!");
+        window.stop();
+  }else{
+        console.log("checking ads...");
+        getAdsJS('https://static.doubleclick.net/instream/ad_status.js');
+  }
+
+}
+
+let a = setInterval(function(){
+    if(!document.querySelector('img[id^='+idk+']')){
+        chkAds()
+    }else{
+      clearInterval(a)
     }
-},2500);
+},3000);
