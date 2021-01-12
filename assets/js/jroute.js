@@ -76,10 +76,11 @@ let idk = mkid();
 let kawaiisad = "<div id='"+idk+"L' style='display: none;  margin-left: auto;  margin-top:20%; margin-right: auto;  width: 50%; text-align:center;'><img id='"+idk+"' src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>You are using adblock or your DNS blocked the ads. Please disable it for this site.</h3></div>";
 
 function ij(){
+  $("#container").fadeOut(300);
   document.getElementById("laksagit").innerHTML = kawaiisad;
-	setTimeout(function(){
-		$("#"+idk+"L").fadeIn(300);
-	},1000);
+  setTimeout(function(){
+	$("#"+idk+"L").fadeIn(300);
+  },1000);
   console.log("ads not found! triple kill!");
   window.stop();
 }
