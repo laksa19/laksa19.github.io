@@ -80,7 +80,7 @@ function ij(){
   setTimeout(function(){
 	$("#"+idk+"L").fadeIn(300);
   },1000);
-  console.log("ads not found! triple kill!");
+  //console.log("ads not found! triple kill!");
   window.stop();
 }
 
@@ -101,14 +101,14 @@ function getAdsJS(url){
         try {
           xhr.send();
           if (xhr.status != 200) {
-            console.log(`Error ${xhr.status}: ${xhr.statusText}`);
+            //console.log(`Error ${xhr.status}: ${xhr.statusText}`);
           } else {
-            console.log("AdSense OK");
+            //console.log("AdSense OK");
               clearInterval(a)
           }
         } catch(err) {
             ij();
-          console.log("ads not found! triple kill!");
+          //console.log("ads not found! triple kill!");
           window.stop();
         }
 }
@@ -118,12 +118,12 @@ function getAdsJS(url){
 function chkAds() {
 
    if(!document.querySelector('ins[id^=aswift_]')){
-        console.log("checking ads...");
+        //console.log("checking ads...");
        ij();
-        console.log("ads not found! triple kill!");
+        //console.log("ads not found! triple kill!");
         window.stop();
   }else{
-        console.log("checking ads...");
+        //console.log("checking ads...");
         getAdsJS('https://static.doubleclick.net/instream/ad_status.js');
   }
 
