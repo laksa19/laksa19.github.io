@@ -66,43 +66,20 @@ function loadDotMD(id,mdfile){
 
 
 jroute(body_id);
-//     const imacontent = "<div style='position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;'><img src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>Please disable your Ad Blocker</h3></div>";
-//     const as = setInterval(function(){
-//     if(!document.querySelector('ins[id^=aswift_]')){
-//         console.log("ads not found! triple kill!");
-//         document.body.innerHTML = imacontent;
-//         setTimeout(function(){
-//             clearInterval(as)
-//         },5000)
-//         window.stop();
-//     }else{
-//         let xhr = new XMLHttpRequest();
-//         xhr.open('GET', 'https://static.doubleclick.net/instream/ad_status.js?'+ new Date().getTime(), false);
-//         try {
-//           xhr.send();
-//           if (xhr.status != 200) {
-//             console.log(`Error ${xhr.status}: ${xhr.statusText}`);
-//           } else {
-//             console.log("ads ok!");
-//             clearInterval(as)
-//           }
-//         } catch(err) {
-//           console.log("ads not found! triple kill!");
-//           document.body.innerHTML = imacontent;
-//           window.stop();
-//         }
-//     }
-// },2500);
+
 
 
 let logokwi = new XMLHttpRequest();
 logokwi.open( "GET", "https://laksa19.github.io/assets/img/kawaii-sad.png", true );
 logokwi.send();
 let idk = mkid();
-let kawaiisad = "<div style='display: block;  margin-left: auto;  margin-top:20%; margin-right: auto;  width: 50%; text-align:center;'><img id='"+idk+"' src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>You are using adblock or your DNS blocked the ads. Please disable it for this site.</h3></div>";
+let kawaiisad = "<div id='"+idk+"L' style='display: none;  margin-left: auto;  margin-top:20%; margin-right: auto;  width: 50%; text-align:center;'><img id='"+idk+"' src='https://laksa19.github.io/assets/img/kawaii-sad.png' width='200px'/><h3>You are using adblock or your DNS blocked the ads. Please disable it for this site.</h3></div>";
 
 function ij(){
   document.getElementById("laksagit").innerHTML = kawaiisad;
+	setTimeout(function(){
+		$("#"+idk+"L").fadeIn(300);
+	},1500);
   console.log("ads not found! triple kill!");
   window.stop();
 }
@@ -158,4 +135,4 @@ let a = setInterval(function(){
     }else{
       clearInterval(a)
     }
-},3000);
+},2000);
