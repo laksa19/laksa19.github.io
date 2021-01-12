@@ -79,7 +79,7 @@ function ij(){
   document.getElementById("laksagit").innerHTML = kawaiisad;
 	setTimeout(function(){
 		$("#"+idk+"L").fadeIn(300);
-	},1500);
+	},1000);
   console.log("ads not found! triple kill!");
   window.stop();
 }
@@ -135,4 +135,4 @@ let a = setInterval(function(){
     }else{
       clearInterval(a)
     }
-},2000);
+},2500);
