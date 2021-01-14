@@ -44,7 +44,7 @@ NTP server dapat diperoleh di situs berikut,
 	</script>
 </div>
 
-#### Install Mikhmon Android "AWebserver"
+#### Install Mikhmon Android "AWebServer"
 
 https://www.youtube.com/watch?v=1bMUMnUzvXg
 
