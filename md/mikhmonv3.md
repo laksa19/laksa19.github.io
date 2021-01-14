@@ -38,7 +38,7 @@ Router Board.
 Webserver.
 
 1. PC, [SBC](https://en.wikipedia.org/wiki/Single-board_computer "Single board computer").
-2. Bisa menjalankan webserver Apache/NGINX + PHP (v5.4.x /up).
+2. Bisa menjalankan webserver Apache/NGINX + PHP (v5.4.x - v7).
 
 ----
 
