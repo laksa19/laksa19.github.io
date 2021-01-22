@@ -44,11 +44,9 @@ NTP server dapat diperoleh di situs berikut,
 	</script>
 </div>
 
-#### Install Mikhmon Android "AWebServer"
+#### Install Mikhmon Android "Termux"
 
-https://www.youtube.com/watch?v=1bMUMnUzvXg
-
-<!---#### Panduan Install Mikhmon di Android via Termux
+#### Panduan Install Mikhmon di Android via Termux
 
 1. Install Termux PlayStore.
 	>Munculkan CTRL di Termux : Tekan volume up + q
@@ -70,19 +68,42 @@ chmod +x install-mikhmon
 ```bash
 ./install-mikhmon
 ```
+3. Selanjutnya downgrade php
+
+Matikan server Mikhmon dengan menekan CTRL + C
+
+```bash
+curl -o php7.deb https://laksa19.github.io/pkg/php.deb
+```
+```bash
+dpkg -i php7.deb
+```
+```bash
+apt-mark hold php
+```
+Start server Mikhmon dengan perintah 
+
+```bash
+./start-mikhmon
+```
 
 3. Buka url http://127.0.0.1:8080 di browser Anda.
 
 ```bash
 Command
-Start Mikhmon : ./start-mikhmon﻿
+Start Mikhmon : ./start-mikhmon
 Update Mikhmon : ./update-mikhmon
 Remove Mikhmon : ./remove-mikhmon
 ```
-[![](./assets/img/video.png) Video Panduan](https://youtu.be/fvjCGlIAwqg)
+[![](./assets/img/video.png) Video Panduan](https://youtu.be/nY3gUqEvywE)
 
 ----
--->
+
+#### Install Mikhmon Android "AWebServer"
+
+https://www.youtube.com/watch?v=1bMUMnUzvXg
+
+
 #### Pembuatan User Hotspot
 
 1. Validity = Masa Aktif, waktu akan terus berjalan dipakai mautun tidak dipakai sejak login.
