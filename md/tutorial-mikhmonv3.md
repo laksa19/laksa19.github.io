@@ -73,14 +73,14 @@ chmod +x install-mikhmon
 	Matikan server Mikhmon dengan menekan CTRL + C
 
 ```bash
-curl -o php7.deb https://laksa19.github.io/pkg/php.deb
+curl -o php7.deb https://laksa19.github.io/pkg/php7.deb
 ```
 ```bash
 dpkg -i php7.deb
 ```
 ```bash
 apt-mark hold php
-```
+```   
    Start server Mikhmon dengan perintah 
 
 ```bash
