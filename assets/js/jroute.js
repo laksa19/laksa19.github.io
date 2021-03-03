@@ -124,7 +124,7 @@ function chkAds() {
         window.stop();
   }else{
         //console.log("checking ads...");
-        getAdsJS('https://static.doubleclick.net/instream/ad_status.js');
+       // getAdsJS('https://static.doubleclick.net/instream/ad_status.js');
   }
 
 }
