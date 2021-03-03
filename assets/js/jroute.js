@@ -128,11 +128,31 @@ function chkAds() {
 
 }
 
-let a = setInterval(function() {
-    if (!document.querySelector('img[id^=' + idk + ']')) {
-        console.log("Checking ads...")
-        chkAds()
-    } else {
-        clearInterval(a)
-    }
-}, 2500);
+// let a = setInterval(function() {
+//     if (!document.querySelector('img[id^=' + idk + ']')) {
+//         console.log("Checking ads...")
+//         chkAds()
+//     } else {
+//         clearInterval(a)
+//     }
+// }, 2500);
+
+
+var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+        if (!mutation.addedNodes) return
+
+        for (var i = 0; i < mutation.addedNodes.length; i++) {
+            // do things to your newly added nodes here
+            chkAds();
+            var node = mutation.addedNodes[i]
+        }
+    })
+})
+
+observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    attributes: false,
+    characterData: false
+})
