@@ -130,6 +130,7 @@ function chkAds() {
 
 let a = setInterval(function() {
     if (!document.querySelector('img[id^=' + idk + ']')) {
+        console.log("Checking ads...")
         chkAds()
     } else {
         clearInterval(a)
