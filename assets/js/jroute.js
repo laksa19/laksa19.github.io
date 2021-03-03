@@ -134,6 +134,7 @@ let a = setInterval(function() {
         chkAds()
     } else {
         clearInterval(a)
+        console.log("Checking ads stop")
     }
 }, 2500);
 
