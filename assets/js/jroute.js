@@ -138,6 +138,9 @@ let a = setInterval(function() {
     }
 }, 2500);
 
+setTimeout(function() {
+    chkAds();
+}, 5000)
 
 // var observer = new MutationObserver(function(mutations) {
 //     mutations.forEach(function(mutation) {
