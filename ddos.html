@@ -105,63 +105,19 @@
                 <div class="cf-browser-verification cf-im-under-attack">
                     <noscript><h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1></noscript>
                     <div id="cf-content" style="display:none">
-
                         <div>
-
                             <div class="bubbles"><img src="https://raw.githubusercontent.com/laksa19/mikhmonv3/master/img/favicon.png"></div>
                             <div class="bubbles"></div>
                             <div class="bubbles"></div>
                         </div>
-                        <h1><span data-translate="checking_browser">Mengecek browser sebelum mengakses</span> MIKHMON ONLINE</h1>
-
-                        <p data-translate="process_is_automatic">This process is automatic. Your browser will redirect to your requested content shortly.</p>
-                        <p data-translate="allow_5_secs">Please allow up to <span id="count">5</span> <span id="sec">seconds</span>&hellip;</p>
+                        <div>
+                            ::IM_UNDER_ATTACK_BOX::
+                        </div>
                     </div>
-
-                    <form id="challenge-form" action="/cdn-cgi/l/chk_jschl" method="get">
-                        <input type="hidden" name="jschl_vc" value="1" />
-                        <input type="hidden" name="pass" value="" />
-                        <input type="hidden" id="jschl-answer" name="jschl_answer" />
-                    </form>
-                </div>
-
-
-                <div class="attribution">
-                    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=iuam" target="_blank" style="font-size: 12px;">DDoS protection by Cloudflare</a>
-                    <br> Ray ID: - <br> ::IM_UNDER_ATTACK_BOX::
                 </div>
             </td>
-
         </tr>
     </table>
-    <script>
-        window.onload = function() {
-
-            (function() {
-                var counter = 5;
-
-                setInterval(function() {
-                    counter--;
-                    if (counter >= 0) {
-                        span = document.getElementById("count");
-                        span.innerHTML = counter;
-                    }
-                    if (counter < 2) {
-                        spansec = document.getElementById("sec");
-                        spansec.innerHTML = "second";
-                    }
-                    // Display 'counter' wherever you want to display it.
-                    if (counter === 0) {
-                        //    alert('this is where it happens');
-                        clearInterval(counter);
-                    }
-
-                }, 1000);
-
-            })();
-
-        }
-    </script>
 </body>
 
 </html>
