@@ -71,8 +71,6 @@ chmod +x install-mikhmon
 
 3. Buka url http://127.0.0.1:8080 di browser Anda.
 
-Matikan server Mikhmon dengan menekan CTRL + C
-
 ```bash
 Command
 Start Mikhmon : ./start-mikhmon
