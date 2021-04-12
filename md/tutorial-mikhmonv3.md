@@ -68,26 +68,10 @@ chmod +x install-mikhmon
 ```bash
 ./install-mikhmon
 ```
-3. Selanjutnya downgrade php
 
-	Matikan server Mikhmon dengan menekan CTRL + C
+3. Buka url http://127.0.0.1:8080 di browser Anda.
 
-```bash
-curl -o php7.deb https://laksa19.github.io/pkg/php7.deb
-```
-```bash
-dpkg -i php7.deb
-```
-```bash
-apt-mark hold php
-```   
-   Start server Mikhmon dengan perintah 
-
-```bash
-./start-mikhmon
-```
-
-4. Buka url http://127.0.0.1:8080 di browser Anda.
+Matikan server Mikhmon dengan menekan CTRL + C
 
 ```bash
 Command
@@ -95,7 +79,7 @@ Start Mikhmon : ./start-mikhmon
 Update Mikhmon : ./update-mikhmon
 Remove Mikhmon : ./remove-mikhmon
 ```
-[![](./assets/img/video.png) Video Panduan](https://youtu.be/nY3gUqEvywE)
+[![](./assets/img/video.png) Video Panduan](https://youtu.be/fvjCGlIAwqg)
 
 ----
 
