@@ -54,7 +54,7 @@ function loadDotMD(id, mdfile) {
             return response.text();
         })
         .then((data) => {
-            var md_result = marked(data);
+            var md_result = marked.parse(data);
             $("#" + id).html(md_result);
             $("pre code").each(function(i, e) { hljs.highlightBlock(e) });
         })
