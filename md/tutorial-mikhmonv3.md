@@ -53,6 +53,24 @@ NTP server dapat diperoleh di situs berikut,
 
 2. Jalankan command berikut di Termux
 
+
+ - Update repo
+
+```bash
+termux-update-repo
+```
+![repo1](./img/termux_1.jpg "repo1")
+
+ - Centang semua repo (main, game dan science)
+		
+![repo2](./img/termux_2.jpg "repo2")		
+		
+ - Pilih repo (Mirrors by Tsinghua)
+
+![repo3](./img/termux_3.jpg "repo3")	
+
+ - Lanjut ke command  berikut
+
 ```bash
 pkg update && pkg upgrade -y
 ```
