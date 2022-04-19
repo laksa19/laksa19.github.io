@@ -54,10 +54,10 @@ NTP server dapat diperoleh di situs berikut,
 2. Jalankan command berikut di Termux
 
 
- - Update repo
+ - Ganti repo
 
 ```bash
-termux-update-repo
+termux-change-repo
 ```
 ![repo1](./img/termux_1.jpg "repo1")
 
