@@ -95,7 +95,7 @@ Start Mikhmon : ./start-mikhmon
 Update Mikhmon : ./update-mikhmon
 Remove Mikhmon : ./remove-mikhmon
 ```
-[![](./assets/img/video.png) Video Panduan](https://youtu.be/fvjCGlIAwqg)
+[![](./assets/img/video.png) Video Panduan](https://youtu.be/XrYDgEzq4oM)
 
 ----
 
