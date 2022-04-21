@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Get MAC Address</title>
+    <script src="assets/js/jquery.min.js"></script>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        function getMAC(mac){
+            $.ajax({
+                url: 'https://api.macvendors.com/v1/lookup/'+encodeURI(mac),
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImp0aSI6IjIxZWE5MWY4LTM1ODktNDA5Ny05MWU0LTdiZjg1NDI3MzE0YiJ9.eyJpc3MiOiJtYWN2ZW5kb3JzIiwiYXVkIjoibWFjdmVuZG9ycyIsImp0aSI6IjIxZWE5MWY4LTM1ODktNDA5Ny05MWU0LTdiZjg1NDI3MzE0YiIsImlhdCI6MTY1MDUxODUwOCwiZXhwIjoxOTY1MDE0NTA4LCJzdWIiOiI5ODA5IiwidHlwIjoiYWNjZXNzIn0.eJpv2AeAuVQ9zRg4x9-coDuASzv8B-cIO7ZtLiWfyi6Y4O__zkodHEldmNgm4us9ZHdd9phUFVf3WhT1mzq37g")
+                }, success: function(data){
+                    $("result").html(data)
+                }
+        })
+        }
+
+        getMAC("FC:FB:FB:01:FA:21");
+    </script>
+</body>
+</html>
