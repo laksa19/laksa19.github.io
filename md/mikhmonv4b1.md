@@ -25,6 +25,6 @@
 
 #### Download
 
-[![Download Mikhmon V4 Beta1](./assets/img/download.png) Download Mikhmon V4 Beta1](https://1drv.ms/u/s!AoKBWjfjQwwXiAA_UKod7otNQxM2?e=71coUK)
+[![Download Mikhmon V4 Beta1](./assets/img/download.png) Download Mikhmon V4 Beta1](#)
 
 [![Download VC15](./assets/img/download.png) Download VC15](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
