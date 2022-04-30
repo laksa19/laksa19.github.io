@@ -108,7 +108,7 @@ Untuk membuat warna berdasarkan harga, tambahkan dan sesuaikan kode berikut di b
 </div>
 
 
-#### MKS Isber Nendi
+#### MKS
 
 ![](./img/voucherv4/mks.png) 
 
