@@ -28,7 +28,7 @@
     - Generate Voucher
 4. Log 
 5. Report (global filter & download CSV and XLS)
-6. Template editor. New template format html
+6. Template editor. New template format html [!Link Template](https://laksa19.github.io/?mikhmon/v4/voucher)
 
 
 Only for localhost!
