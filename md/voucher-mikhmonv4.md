@@ -63,7 +63,7 @@ Untuk membuat warna berdasarkan harga, tambahkan dan sesuaikan kode berikut di b
 [![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.default.txt)
 [![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.default.txt)
 
-<div>
+<div ><small>iklan</small>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- ads3 -->
 	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
@@ -97,7 +97,7 @@ Untuk membuat warna berdasarkan harga, tambahkan dan sesuaikan kode berikut di b
 [![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.kangdo.txt)
 [![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.kangdo.txt)
 
-<div>
+<div><small>iklan</small>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- ads3 -->
 	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
