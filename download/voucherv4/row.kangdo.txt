@@ -1,0 +1,55 @@
+<table class="voucher border" bgcolor="#aaa" style="border-left:solid 2px #aaa; border-right:solid 2px #aaa; border-top:0px; border-bottom:0px; width: 245px; color:#fff; text-align: center; -webkit-print-color-adjust: exact;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="font-weight:bold;">%hotspotName%</td>
+			<td class="rotate bgwhite" rowspan="8" style="vertical-align: top; font-size:20px; font-wight:bold; padding-top:20px; border-left:solid 2px #aaa;"><span style="color: " class="price">%price%</span></td>
+		</tr>
+		<tr>
+			<td class="bgwhite" >Package</td>
+			<td class="bgwhite" >%profile%</td>
+		</tr>
+		<tr>
+			<td class="bgwhite" >Data Limit</td>
+			<td class="bgwhite" >%limitBytesTotal%</td>
+		</tr>
+		<tr>
+			<td class="bgwhite" >Time Limit</td>
+			<td class="bgwhite" ><span class="timelimit">%limitUptime%</span></td>
+		</tr>
+		<tr>
+			<td class="bgwhite" >Validity</td>
+			<td class="bgwhite" ><span class="validity">%validity%</span></td>
+		</tr>
+		<tr class="vc">
+			<td colspan="2" style="font-size:12px; font-weight: bold;">ID.VOUCHER</td>
+		</tr>
+		<tr class="vc">
+			<td colspan="2" class="bgwhite fontID" >%username%</td>
+		</tr>
+		<tr class="up">
+			<td style="font-size:12px; font-weight: bold;">USERNAME</td>
+			<td style="font-size:12px; font-weight: bold;">PASSWORD</td>
+		</tr>
+		<tr class="up">
+			<td class="bgwhite fontID" >%username%</td>
+			<td class="bgwhite fontID" >%password%</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width: 100%;">	
+				<table style="width: 100%;">	
+					<tr>	
+						<td style="font-size:12px; text-align: left;">INFO</td>
+						<td style="font-size:12px; text-align: right;">SMS/WA: %phone%</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<script>
+	if("%username%" == "%password%"){
+		$(".vc").show()
+	}else if("%username%" != "%password%"){
+		$(".up").show()
+	}
+</script>
