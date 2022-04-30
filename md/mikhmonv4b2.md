@@ -1,12 +1,21 @@
+
+
+
+![MIKHMON V4B2](./img/mikhmonv4b2.png "MIKHMON V4B2")
+
+
+## Mikhmon V4 Beta 2.1
+1. User Profile
+    - Lock Server change to Disable/Enable. So, the hotspot server will be adjusted to the hotspot server where the user is logged in.
+    - ![MIKHMON V4B2.1 Lock Server](./img/loackserver001.png "MIKHMON V4B2.1 Lock Server")
+
+
 ## Mikhmon V4 Beta 2
-
-Only for localhost!
-
 #### Ready
 1. Dashboard
     - Hotspot Active
     - Hotspot Users
-    - Live Report. Disable/enable from settings.
+    - Live Report. Disable/Enable from settings.
     - App log
     - Hotspot log
 3. Hotspot
@@ -21,9 +30,8 @@ Only for localhost!
 5. Report (global filter & download CSV and XLS)
 6. Template editor. New template format html
 
-#### Dashboard
 
-![MIKHMON V4B2](./img/mikhmonv4b2.png "MIKHMON V4B2")
+Only for localhost!
 
 #### Tutorial Youtube
 
