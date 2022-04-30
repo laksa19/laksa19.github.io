@@ -6,9 +6,9 @@ Default atau Small adalah template yang digunakan untuk print lebih dari satu vo
 Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk printer thermal).
 
 
->Penting! Jangan langsung copy paste. Template ini perlu disesuaikan dengan kebutuhan masing-masing. Keterangan ada di template.
+>Tamplate ini menggunakan kode HTML dan javascript/jQuery
 
->Jika sudah yakin baru dimasukkan ke Mikhmon lewat menu Settings-> Template Editor.
+
 
 ----
 
