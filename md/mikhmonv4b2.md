@@ -7,7 +7,7 @@
 ## Mikhmon V4 Beta 2.1
 1. User Profile
     - Lock Server change to Disable/Enable. So, the hotspot server will be adjusted to the hotspot server where the user is logged in.
-    - ![MIKHMON V4B2.1 Lock Server](./img/loackserver001.png "MIKHMON V4B2.1 Lock Server")
+    - ![MIKHMON V4B2.1 Lock Server](./img/lockserver001.png "MIKHMON V4B2.1 Lock Server")
 
 
 ## Mikhmon V4 Beta 2
