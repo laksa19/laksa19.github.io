@@ -8,7 +8,7 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 >Tamplate ini menggunakan kode HTML dan javascript/jQuery
 
-
+>Edit Template bisa langsung dari aplikasi, menu "Template Editor"
 
 ----
 
