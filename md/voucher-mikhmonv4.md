@@ -111,7 +111,7 @@ Untuk membuat warna berdasarkan harga, tambahkan dan sesuaikan kode berikut di b
 
 #### MKS Isber Nendi
 
-![](./img/voucherv4/mks.jpg) 
+![](./img/voucherv4/mks.png) 
 
 [![](./assets/img/download.png) Header](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/header.mks.txt)
 [![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.mks.txt)
