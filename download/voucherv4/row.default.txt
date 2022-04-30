@@ -32,12 +32,16 @@
 		$(".up").show()
 	}
 
-	// var tcolor = {
-	//   15000 : "red",
-	// }
+</script>
 
-	// $(".price").css("color",tcolor["%price%"]);
+<script>
+	var tcolor = {
+	  1500 : "red",
+	  2000 : "blue",	
+	  3000 : "#33D4FF", //hex color code
+	}
 
+	$(".price").css("color",tcolor["%price%"]);
 </script>
 
 
