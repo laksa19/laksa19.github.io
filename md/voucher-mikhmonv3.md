@@ -1,4 +1,4 @@
-### Template Voucher Mikhmon V3
+### Template Voucher Mikhmon V4
 
 Template Voucher Mikhmon
 Mikhmon memiliki 3 jenis template voucher (Default, Thermal dan Small).
@@ -12,17 +12,57 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 ----
 
-#### Default Color by Price
+### Variable
 
-![](./img/voucher/cbp.png) ![](./img/voucher/cbpup.png)
+```js
+%username% = username
+%password% = password
+%profile% = profile
+%limitBytesTotal% = data limit
+%limitUptime% = time limit
+%validity% = validity
+%price% = selling price
+%comment% = comment
+%#% = number
+%dnsName% = dns name
+%hotspotName% = hotspot name
+%currency% = currency 
+%qrCode% = qrcode 
+%qrCodeRed% = qrcode red 
+%qrCodeGreen% = qrcode green 
+%qrCodeBlue% = qrcode blue 
+%phone% = phone number
+%logo% = logo
+%timeStamp% = timestamp
+```
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/vdefaultcolorbyprice.txt)
+#### Warna berbeda berdasarkan harga
 
-#### Default Detail
+Untuk membuat warna berdasarkan harga, tambahkan dan sesuaikan kode berikut di bagian bawah tempalte ROW. Lihat gambar.
 
-![](./img/voucher/detail.png) ![](./img/voucher/detailup.png)
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/vdefaultdetail.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/vdefaultdetailbw.txt)
+```js
+<script>
+	var tcolor = {
+	  1500 : "red",
+	  2000 : "blue",	
+	  3000 : "#33D4FF", //hex color code
+	}
+
+	$(".price").css("color",tcolor["%price%"]);
+</script>
+```
+
+![](./img/voucherv4/setpricecolor.png) 
+
+
+#### Default
+
+![](./img/voucherv4/default.png) 
+
+[![](./assets/img/download.png) Header](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/header.default.txt)
+[![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.default.txt)
+[![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.default.txt)
 
 <div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -34,23 +74,29 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 	</script>
 </div>
 
-#### Default Elegan
+#### Default Small
 
-![](./img/voucher/eleganqr.png) ![](./img/voucher/eleganupqr.png)
+![](./img/voucherv4/small.png) 
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/velegan.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/veleganbw.txt)
+[![](./assets/img/download.png) Header](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/header.small.txt)
+[![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.small.txt)
+[![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.small.txt)
 
-#### Ala Kangdo
+#### Default Thermal
 
-![](./img/voucher/alaKangdoVC.png) ![](./img/voucher/alaKangdoUP.png)
+![](./img/voucherv4/thermal.png)
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/alaKangdo.txt) [![](./assets/img/download.png) Download BW](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/alaKangdoBW.txt)
+[![](./assets/img/download.png) Header](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/header.thermal.txt)
+[![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.thermal.txt)
+[![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.thermal.txt)
 
-#### Default Abu Shafa 1
+#### Kangdo
 
-![](./img/voucher/abuqr.png) ![](./img/voucher/abuupqr.png)
+![](./img/voucherv4/Kangdo.png)
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/Abu_Shafa_1.txt)
+[![](./assets/img/download.png) Header](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/header.kangdo.txt)
+[![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.kangdo.txt)
+[![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.kangdo.txt)
 
 <div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -62,19 +108,14 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 	</script>
 </div>
 
-#### Default Abu Shafa Orange
-
-![](./img/voucher/orangeqr.png) ![](./img/voucher/orangeupqr.png)
-
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/Orange.txt)
 
 #### MKS Isber Nendi
 
-![](./img/voucher/mks.jpg) 
+![](./img/voucherv4/mksv.jpg) 
 
-[![](./assets/img/download.png) Download](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucher/mks.txt)
+[![](./assets/img/download.png) Header](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/header.mks.txt)
+[![](./assets/img/download.png) Row](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/row.mks.txt)
+[![](./assets/img/download.png) Footer](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/voucherv4/footer.mks.txt)
 
 
-#### Template Voucher Pihak ke 3
 
-[KevinNet](https://isbernendi.github.io/voucher.html)
