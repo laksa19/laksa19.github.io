@@ -23,7 +23,7 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 | %validity% | validity |
 | %price% | selling price |
 | %comment% | comment |
-| %#% | number |
+| %#% | voucher serial number |
 | %dnsName% | dns name |
 | %hotspotName% | hotspot name |
 | %currency% | currency |
