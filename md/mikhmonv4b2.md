@@ -42,4 +42,8 @@ Only for localhost!
 
 [![Download Mikhmon V4 Beta1](./assets/img/download.png) Download Mikhmon V4 Beta2](https://1drv.ms/u/s!AoKBWjfjQwwXihmPghvefWBR1yQj?e=OMbHKp)
 
-[![Download VC15](./assets/img/download.png) Download VC15](https://1drv.ms/u/s!AoKBWjfjQwwXihwKtHS31C2kpMRG?e=I0wJui)
+#### Run-time components required
+
+Install x86 version
+
+[![Download VC15](./assets/img/download.png) Download VC15](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
