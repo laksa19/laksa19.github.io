@@ -12,29 +12,28 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 ----
 
-### Variable
 
-```js
-%username% = username
-%password% = password
-%profile% = profile
-%limitBytesTotal% = data limit
-%limitUptime% = time limit
-%validity% = validity
-%price% = selling price
-%comment% = comment
-%#% = number
-%dnsName% = dns name
-%hotspotName% = hotspot name
-%currency% = currency 
-%qrCode% = qrcode 
-%qrCodeRed% = qrcode red 
-%qrCodeGreen% = qrcode green 
-%qrCodeBlue% = qrcode blue 
-%phone% = phone number
-%logo% = logo
-%timeStamp% = timestamp
-```
+| Variable | For |
+|---|---|
+| %username% | username |
+| %password% | password |
+| %profile% | profile |
+| %limitBytesTotal% | data limit |
+| %limitUptime% | time limit |
+| %validity% | validity |
+| %price% | selling price |
+| %comment% | comment |
+| %#% | number |
+| %dnsName% | dns name |
+| %hotspotName% | hotspot name |
+| %currency% | currency |
+| %qrCode% | qr code | 
+| %qrCodeRed% | qr code red color | 
+| %qrCodeGreen% | qr code green color | 
+| %qrCodeBlue% | qr code blue color | 
+| %phone% | phone number |
+| %logo% | voucher logo |
+| %timeStamp% | timestamp |
 
 #### Warna berbeda berdasarkan harga
 
