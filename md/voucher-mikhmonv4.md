@@ -39,6 +39,15 @@ Thermal adalah template yang digunakan untuk print satu voucher (tujuan untuk pr
 
 Untuk membuat warna berdasarkan harga, tambahkan dan sesuaikan kode berikut di bagian bawah tempalte ROW. Lihat gambar.
 
+Contoh di template default pada elemen variable %price% ditambahkan class "price",
+
+```html
+<span class="price">%price%</span>
+```
+
+jadi dengan script berikut, maka warna yang berubah adalah warna pada class "price" saja.
+
+Ini bisa disesuaikan dengan kebutuhan masing-masing, tidak harus class "price".
 
 ```js
 <script>
