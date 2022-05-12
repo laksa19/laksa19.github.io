@@ -4,6 +4,11 @@
 ![MIKHMON V4B2](./img/mikhmonv4b2.png "MIKHMON V4B2")
 
 
+## Mikhmon V4 Beta 2.2
+1. User Profile
+    - Fix expired mode notice.
+    - Expire date change to ```mmm/dd/yyyy hh:mm:ss N``` for notice and ```mmm/dd/yyyy hh:mm:ss X``` for remove.
+
 ## Mikhmon V4 Beta 2.1
 1. User Profile
     - Lock Server change to Disable/Enable. So, the hotspot server will be adjusted to the hotspot server where the user is logged in.
