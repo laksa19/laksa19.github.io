@@ -47,7 +47,7 @@ Only for localhost!
 
 [![Download Mikhmon V4 Beta2](./assets/img/download.png) Download Mikhmon V4 Beta2](https://1drv.ms/u/s!AoKBWjfjQwwXihmPghvefWBR1yQj?e=OMbHKp)
 
-[![Download Mikhmon.zip](./assets/img/download.png) Download mikhmon.zip for web server](https://1drv.ms/u/s!AoKBWjfjQwwXih1pGB5Lr7_wSMIm?e=eXdW2H)
+[![Download Mikhmon.zip](./assets/img/download.png) Download mikhmon.zip for web server](https://1drv.ms/u/s!AoKBWjfjQwwXih74l6t0I5sn-VwX?e=ZYuhC5)
 
 #### Run-time components required
 
