@@ -116,7 +116,7 @@ function getAdsJS(url) {
 
 function chkAds() {
 
-    if (!document.querySelector('ins[id^=aswift_]')) {
+    if (!document.querySelector('ins[class=adsbygoogle]')) {
         console.log("checking ads...");
         ij();
         console.log("ads not found! triple kill!");
@@ -131,7 +131,7 @@ function chkAds() {
 let a = setInterval(function() {
     if (!document.querySelector('img[id^=' + idk + ']')) {
         console.log("Checking ads...")
-       // chkAds()
+       chkAds()
     } else {
         clearInterval(a)
         console.log("Checking ads stop")
@@ -139,5 +139,5 @@ let a = setInterval(function() {
 }, 2500);
 
 setTimeout(function() {
-    //chkAds();
+    chkAds();
 }, 5000)
