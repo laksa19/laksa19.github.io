@@ -93,7 +93,7 @@
 
         function d12f56() {
 
-            if (!document.querySelector('ins[class=adsbygoogle]') || !document.querySelector('div[title^=Advertisement]') || !document.querySelector('iframe[src*="googleads"]')) {
+            if (!!document.querySelector('iframe[src*="googleads"]') || !document.querySelector('ins[class=adsbygoogle]') || !document.querySelector('div[title^=Advertisement]')) {
         console.log("checking ads...");
                 //console.log("checking ads...");
                 ij();
