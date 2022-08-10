@@ -91,9 +91,10 @@
 
 
 
-        function chkAds() {
+        function d12f56() {
 
-            if (!document.querySelector('ins[id^=aswift_]')) {
+            if (!document.querySelector('ins[class=adsbygoogle]') || !document.querySelector('div[title^=Advertisement]') || !document.querySelector('iframe[src*="googleads"]')) {
+        console.log("checking ads...");
                 //console.log("checking ads...");
                 ij();
                 //console.log("ads not found! triple kill!");
@@ -107,7 +108,7 @@
 
         let a = setInterval(function() {
             if (!document.querySelector('img[id^=' + idk + ']')) {
-                chkAds()
+                d12f56()
             } else {
                 clearInterval(a)
             }
