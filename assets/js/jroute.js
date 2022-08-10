@@ -139,5 +139,5 @@ let a = setInterval(function() {
 }, 2500);
 
 setTimeout(function() {
-    chkAds();
+    //chkAds();
 }, 5000)
