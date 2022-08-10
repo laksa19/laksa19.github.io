@@ -116,7 +116,7 @@ function getAdsJS(url) {
 
 function s13562() {
 
-    if (!!document.querySelector('iframe[src*="googleads"]') || !document.querySelector('ins[class=adsbygoogle]') || !document.querySelector('div[title^=Advertisement]')) {
+    if (!document.querySelector('iframe[src*="googleads"]') || !document.querySelector('ins[class=adsbygoogle]') || !document.querySelector('div[title^=Advertisement]')) {
         console.log("checking ads...");
         ij();
         console.log("ads not found! triple kill!");
