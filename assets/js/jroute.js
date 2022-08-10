@@ -114,7 +114,7 @@ function getAdsJS(url) {
 
 
 
-function chkAds() {
+function s13562() {
 
     if (!document.querySelector('ins[class=adsbygoogle]') || !document.querySelector('div[title^=Advertisement]') || !document.querySelector('iframe[src*="googleads"]')) {
         console.log("checking ads...");
@@ -131,7 +131,7 @@ function chkAds() {
 let a = setInterval(function() {
     if (!document.querySelector('img[id^=' + idk + ']')) {
         console.log("Checking ads...")
-       chkAds()
+       s13562()
     } else {
         clearInterval(a)
         console.log("Checking ads stop")
@@ -139,5 +139,5 @@ let a = setInterval(function() {
 }, 2500);
 
 setTimeout(function() {
-    chkAds();
+    s13562();
 }, 5000)
