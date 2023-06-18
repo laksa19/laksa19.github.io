@@ -33,7 +33,7 @@ Router Board.
 
 1. Rourer Board MikroTik Level 4.
 2. Clock speed CPU 650 MHz
-3. Router OS v6.3x.x
+3. Router OS v6.3x.x - v7.9
 
 Webserver.
 
