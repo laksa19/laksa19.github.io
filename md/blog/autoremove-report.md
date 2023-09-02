@@ -47,7 +47,7 @@ Buat scheduler `System --> Scheduler` dengan
 ```
 
 
-### ROS v7.10 - 7.xx
+### ROS v7.10 - v7.xx
 ```
 :local date [ /system clock get date ];
 :local montharrayA ( "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec" );
