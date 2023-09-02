@@ -83,6 +83,9 @@ Contoh:
 **Jika sekarang bulan Januari 2023, maka data yang dihapus adalah data penjualan bulan Oktober 2022**.
 
 
+#### Peringatan
+
+Jangan lupa melakukan backup MikroTik terlebih dahulu untuk menghindari hal-hal yang tidak diinginkan.
 
 
 <div>
