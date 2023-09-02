@@ -85,7 +85,7 @@ Contoh:
 
 #### Peringatan
 
-Jangan lupa melakukan backup MikroTik terlebih dahulu untuk menghindari hal-hal yang tidak diinginkan.
+Jangan lupa melakukan backup MikroTik terlebih dahulu, untuk menghindari hal-hal yang tidak diinginkan.
 
 
 <div>
