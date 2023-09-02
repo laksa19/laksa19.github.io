@@ -2,8 +2,6 @@
 
 #### Autoremove Report
 
-Set last Date & Time:
-
 Script berikut difungsikan untuk menghapus otomatis data penjualan menggunakan "Scheduler".
 
 Buat scheduler `System --> Scheduler` dengan
