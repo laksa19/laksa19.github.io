@@ -11,3 +11,7 @@ Solusi untuk pengaturan jam dan tanggal agar tidak kembali ke tanggal default `j
 ![](./img/usersmissing-s.png)
 
 Kenapa user hotspot yang sudah saya generate tiba-tiba hilang setelah reboot atau mati listrik? [*Baca selengkapnya...*](./?blog/hotspot-users-missing "Read more...")
+
+
+#### Script Autoremove Report
+Menghapus data penjualan secara otomatis dengan scheduler. [*Baca selengkapnya...*](./?blog/autoremove-report "Read more...")
