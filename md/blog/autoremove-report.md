@@ -20,7 +20,7 @@ Buat scheduler `System --> Scheduler` dengan
 	</script>
 </div>
 
-### ROS < 7.10
+### ROS v6.xx - v7.9
 ```
 :local date [ /system clock get date ];
 :local montharrayA ( "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec" );
@@ -47,7 +47,7 @@ Buat scheduler `System --> Scheduler` dengan
 ```
 
 
-### ROS > 7.9
+### ROS v7.10 - 7.xx
 ```
 :local date [ /system clock get date ];
 :local montharrayA ( "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec" );
