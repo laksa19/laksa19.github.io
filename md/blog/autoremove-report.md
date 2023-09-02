@@ -75,7 +75,7 @@ Buat scheduler `System --> Scheduler` dengan
 
 Cara kerja:
 
-Scheduler dijalankan 1 tiap hari, yang mana melakukan pengecekan terhadap tanggal. Jika tanggal > 9 maka script untuk menghapus data penjualan akan berjalan.
+Scheduler dijalankan tiap hari, yang mana melakukan pengecekan terhadap tanggal. Jika tanggal > 9 maka script untuk menghapus data penjualan akan berjalan.
 Data yang dihapus adalah data penjualan 3 bulan sebelumnya. 
 
 Contoh:
