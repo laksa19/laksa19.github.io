@@ -10,9 +10,9 @@ Buat scheduler `System --> Scheduler` dengan
 * Name : `autoremove-report`
 * Interval : `1d 00:00:00`
 * On event sebagai berikut [pakai salah satu sesuai versi Router OS]
-```
-# ROS < 7.10
 
+### ROS < 7.10
+```
 :local date [ /system clock get date ];
 :local montharrayA ( "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec" );
 :local montharrayB ("oct","nov","dec" );
@@ -35,11 +35,11 @@ Buat scheduler `System --> Scheduler` dengan
 /sys scr rem [find where owner=$monthdell];
 }
 }
+```
 
-####################################################################
 
-# ROS > 7.9
-
+### ROS > 7.9
+```
 :local date [ /system clock get date ];
 :local montharrayA ( "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec" );
 :local montharrayB ("oct","nov","dec" );
@@ -68,11 +68,11 @@ Cara kerja:
 
 Scheduler dijalankan 1 tiap hari, yang mana melakukan pengecekan terhadap tanggal. Jika tanggal > 9 maka script untuk menghapus data penjualan akan berjalan.
 Data yang dihapus adalah data penjualan 3 bulan sebelumnya. 
+
 Contoh:
 
-```
-Jika sekaran bulan Januari 2023, maka data yang dihapus adalah Oktober 2022.
-```
+**Jika sekarang bulan Januari 2023, maka data yang dihapus adalah data penjualan bulan Oktober 2022**.
+
 
 ![](./img/setdatetime.png)
 
