@@ -10,6 +10,16 @@ Buat scheduler `System --> Scheduler` dengan
 * Name : `autoremove-report`
 * Interval : `1d 00:00:00`
 * On event sebagai berikut [pakai salah satu sesuai versi Router OS]
+* 
+<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- ads3 -->
+	<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="4095402072"
+	 data-ad-format="auto" data-full-width-responsive="true"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 ### ROS < 7.10
 ```
@@ -74,7 +84,7 @@ Contoh:
 **Jika sekarang bulan Januari 2023, maka data yang dihapus adalah data penjualan bulan Oktober 2022**.
 
 
-![](./img/setdatetime.png)
+
 
 <div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
