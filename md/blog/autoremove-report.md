@@ -8,7 +8,8 @@ Buat scheduler `System --> Scheduler` dengan
 * Name : `autoremove-report`
 * Interval : `1d 00:00:00`
 * On event sebagai berikut [pakai salah satu sesuai versi Router OS]
-* 
+
+  
 <div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- ads3 -->
