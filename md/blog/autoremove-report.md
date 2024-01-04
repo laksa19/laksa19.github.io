@@ -25,7 +25,7 @@ Buat scheduler `System --> Scheduler` dengan
 :local date [ /system clock get date ];
 :local montharrayA ( "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec" );
 :local montharrayB ("oct","nov","dec" );
-:local day [:tonum [:pick $d 4 6 ]];
+:local day [:tonum [:pick $date 4 6 ]];
 :local month [ :pick $date 0 3 ];
 :local year [ :pick $date 7 11 ];
 :local monthint ([ :find $montharrayA $month] + 1);
