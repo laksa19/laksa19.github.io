@@ -139,5 +139,5 @@ let a = setInterval(function() {
 }, 2500);
 
 setTimeout(function() {
-    s13562();
+  //  s13562();
 }, 5000)
